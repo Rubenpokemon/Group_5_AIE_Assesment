@@ -2107,3 +2107,1668 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2021.11.03-07.39.16:439][502]AssetCheck: New page: Asset Save: multiple assets
 [2021.11.03-07.39.16:439][502]LogContentValidation: Display: Validating World /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap
 [2021.11.03-07.39.16:439][502]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData.FirstPersonExampleMap_BuiltData
+[2021.11.03-07.43.04:745][235]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 ../../../../../../Users/ruben/OneDrive/Documents/Blender Projects/Sorted/Charaters/Scrappy.fbx)
+[2021.11.03-07.43.04:886][235]LogFbx: Loading FBX Scene from ../../../../../../Users/ruben/OneDrive/Documents/Blender Projects/Sorted/Charaters/Scrappy.fbx
+[2021.11.03-07.43.04:916][235]LogFbx: FBX Scene Loaded Succesfully
+[2021.11.03-07.43.12:789][235]LogSlate: Window 'FBX Import Options' being destroyed
+[2021.11.03-07.43.13:107][235]LogMaterial: Display: Missing cached shader map for material Metal, compiling. 
+[2021.11.03-07.43.13:164][235]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 15
+[2021.11.03-07.43.13:164][235]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 11
+[2021.11.03-07.43.13:164][235]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 7
+[2021.11.03-07.43.13:164][235]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 3
+[2021.11.03-07.43.13:166][235]LogMaterial: Display: Missing cached shader map for material Metal_001, compiling. 
+[2021.11.03-07.43.13:178][235]LogFbx: Display: Triangulating static mesh Scrappy
+[2021.11.03-07.43.14:246][235]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 15
+[2021.11.03-07.43.14:262][235]LogStaticMesh: Building static mesh Scrappy...
+[2021.11.03-07.43.14:723][235]LogStaticMesh: Built static mesh [0.45s] /Game/_MyContent/Models/Scrappy.Scrappy
+[2021.11.03-07.43.14:978][235]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2021.11.03-07.43.15:027][235]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 11
+[2021.11.03-07.43.15:314][240]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 8
+[2021.11.03-07.43.15:438][248]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 5
+[2021.11.03-07.43.15:774][284]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 3
+[2021.11.03-07.43.16:012][311]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 2
+[2021.11.03-07.43.16:465][364]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 1
+[2021.11.03-07.43.19:113][681]LogSlate: Window 'Message Log' being destroyed
+[2021.11.03-07.43.19:118][681]LogSlate: Window 'Message Log' being destroyed
+[2021.11.03-07.43.20:285][788]LogActorFactory: Actor Factory created Scrappy
+[2021.11.03-07.43.20:753][826]LogActorFactory: Actor Factory created Scrappy
+[2021.11.03-07.43.35:480][532]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2021.11.03-07.43.36:263][614]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Scrappy)
+[2021.11.03-07.43.40:199][ 76]LogTemp: Repeating last play command: Selected Viewport
+[2021.11.03-07.43.40:209][ 76]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.11.03-07.43.40:209][ 76]PIE: New page: PIE session: FirstPersonExampleMap (4 Nov 2021, 5:43:40 am)
+[2021.11.03-07.43.40:241][ 76]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2021.11.03-07.43.40:254][ 76]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012949s)
+[2021.11.03-07.43.40:256][ 76]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2021.11.03-07.43.40:256][ 76]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (00000215CAA6B000), frame # 143076
+[2021.11.03-07.43.40:256][ 76]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (00000215A6F77D80), frame # 143076
+[2021.11.03-07.43.40:257][ 76]LogPlayLevel: PIE: World Init took: (0.002118s)
+[2021.11.03-07.43.40:257][ 76]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.015341s)
+[2021.11.03-07.43.40:290][ 76]LogUObjectHash: Compacting FUObjectHashTables data took   2.77ms
+[2021.11.03-07.43.40:295][ 76]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.11.03-07.43.40:295][ 76]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.11.03-07.43.40:295][ 76]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.11.03-07.43.40:295][ 76]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.11.03-07.43.40:295][ 76]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.11.03-07.43.40:295][ 76]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.11.03-07.43.40:295][ 76]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.11.03-07.43.40:295][ 76]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.11.03-07.43.40:295][ 76]LogAudio: Display: Using built-in audio occlusion.
+[2021.11.03-07.43.40:295][ 76]LogAudioMixer: Display: Initializing audio mixer.
+[2021.11.03-07.43.40:302][ 76]LogAudioMixer: Display: 0: FrontLeft
+[2021.11.03-07.43.40:303][ 76]LogAudioMixer: Display: 1: FrontRight
+[2021.11.03-07.43.40:333][ 76]LogAudioMixer: Display: Using Audio Device Speakers (Realtek High Definition Audio)
+[2021.11.03-07.43.40:333][ 76]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.11.03-07.43.40:333][ 76]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.11.03-07.43.40:333][ 76]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.11.03-07.43.40:333][ 76]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.11.03-07.43.40:350][ 76]LogInit: FAudioDevice initialized.
+[2021.11.03-07.43.40:357][ 76]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2021.11.03-07.43.40:361][ 76]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2021.11.03-18.43.40
+[2021.11.03-07.43.40:361][ 76]LogWorld: Bringing up level for play took: 0.002537
+[2021.11.03-07.43.40:361][ 76]LogOnline: OSS: Creating online subsystem instance for: :Context_30
+[2021.11.03-07.43.40:363][ 76]PIE: Server logged in
+[2021.11.03-07.43.40:364][ 76]PIE: Play in editor total start time 0.155 seconds.
+[2021.11.03-07.43.47:792][955]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.11.03-07.43.47:792][955]LogWorld: BeginTearingDown for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2021.11.03-07.43.47:792][955]LogWorld: UWorld::CleanupWorld for FirstPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2021.11.03-07.43.47:793][955]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.11.03-07.43.47:800][955]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.11.03-07.43.47:805][955]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.11.03-07.43.47:847][955]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.11.03-07.43.47:848][955]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (00000215A6F77D80), frame # 143955
+[2021.11.03-07.43.47:848][955]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (00000215CAA6B000), frame # 143955
+[2021.11.03-07.43.47:850][955]LogUObjectHash: Compacting FUObjectHashTables data took   2.28ms
+[2021.11.03-07.43.47:877][956]LogPlayLevel: Display: Destroying online subsystem :Context_30
+[2021.11.03-07.43.48:816][ 66]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Scrappy)
+[2021.11.03-07.43.50:404][252]Cmd: DELETE
+[2021.11.03-07.43.50:404][252]Cmd: ACTOR DELETE
+[2021.11.03-07.43.50:406][252]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.11.03-07.43.50:427][252]LogUObjectHash: Compacting FUObjectHashTables data took   1.77ms
+[2021.11.03-07.43.50:429][252]LogEditorActor: Deleted 1 Actors (0.026 secs)
+[2021.11.03-07.43.52:166][460]LogEditorViewport: Clicking on Actor (LMB): Melee_Enemy_C (Melee_Enemy5)
+[2021.11.03-07.45.00:644][ 65]LogActorFactory: Actor Factory created Scrappy
+[2021.11.03-07.46.11:261][577]BlueprintLog: New page: Compile Melee_Enemy
+[2021.11.03-07.46.11:392][577]LogUObjectHash: Compacting FUObjectHashTables data took   3.41ms
+[2021.11.03-07.46.14:917][941]LogTemp: Repeating last play command: Selected Viewport
+[2021.11.03-07.46.14:934][941]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.11.03-07.46.14:934][941]PIE: New page: PIE session: FirstPersonExampleMap (4 Nov 2021, 5:46:14 am)
+[2021.11.03-07.46.14:970][941]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2021.11.03-07.46.14:983][941]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012303s)
+[2021.11.03-07.46.14:984][941]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2021.11.03-07.46.14:985][941]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (00000215328F1C00), frame # 155941
+[2021.11.03-07.46.14:985][941]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (00000215A6F75BC0), frame # 155941
+[2021.11.03-07.46.14:985][941]LogPlayLevel: PIE: World Init took: (0.001925s)
+[2021.11.03-07.46.14:985][941]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.014612s)
+[2021.11.03-07.46.15:014][941]LogUObjectHash: Compacting FUObjectHashTables data took   2.80ms
+[2021.11.03-07.46.15:017][941]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.11.03-07.46.15:017][941]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.11.03-07.46.15:017][941]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.11.03-07.46.15:017][941]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.11.03-07.46.15:017][941]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.11.03-07.46.15:017][941]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.11.03-07.46.15:018][941]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.11.03-07.46.15:018][941]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.11.03-07.46.15:018][941]LogAudio: Display: Using built-in audio occlusion.
+[2021.11.03-07.46.15:018][941]LogAudioMixer: Display: Initializing audio mixer.
+[2021.11.03-07.46.15:025][941]LogAudioMixer: Display: 0: FrontLeft
+[2021.11.03-07.46.15:025][941]LogAudioMixer: Display: 1: FrontRight
+[2021.11.03-07.46.15:057][941]LogAudioMixer: Display: Using Audio Device Speakers (Realtek High Definition Audio)
+[2021.11.03-07.46.15:057][941]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.11.03-07.46.15:057][941]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.11.03-07.46.15:057][941]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.11.03-07.46.15:058][941]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.11.03-07.46.15:072][941]LogInit: FAudioDevice initialized.
+[2021.11.03-07.46.15:082][941]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2021.11.03-07.46.15:084][941]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2021.11.03-18.46.15
+[2021.11.03-07.46.15:098][941]LogWorld: Bringing up level for play took: 0.015435
+[2021.11.03-07.46.15:099][941]LogOnline: OSS: Creating online subsystem instance for: :Context_31
+[2021.11.03-07.46.15:103][941]PIE: Server logged in
+[2021.11.03-07.46.15:103][941]PIE: Play in editor total start time 0.172 seconds.
+[2021.11.03-07.46.30:863][811]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.11.03-07.46.30:863][811]LogWorld: BeginTearingDown for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2021.11.03-07.46.30:863][811]LogWorld: UWorld::CleanupWorld for FirstPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2021.11.03-07.46.30:864][811]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.11.03-07.46.30:874][811]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.11.03-07.46.30:879][811]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.11.03-07.46.30:921][811]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.11.03-07.46.30:922][811]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (00000215A6F75BC0), frame # 157811
+[2021.11.03-07.46.30:922][811]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (00000215328F1C00), frame # 157811
+[2021.11.03-07.46.30:925][811]LogUObjectHash: Compacting FUObjectHashTables data took   2.01ms
+[2021.11.03-07.46.30:954][812]LogPlayLevel: Display: Destroying online subsystem :Context_31
+[2021.11.03-07.47.04:648][567]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (EditorCube13)
+[2021.11.03-07.47.05:468][653]LogEditorViewport: Clicking on Actor (LMB): Melee_Enemy_C (Melee_Enemy5)
+[2021.11.03-07.47.12:404][413]LogAssetEditorSubsystem: Opening Asset editor for StaticMesh /Game/_MyContent/Models/Scrappy.Scrappy
+[2021.11.03-07.47.13:437][413]LogWorld: UWorld::CleanupWorld for World_7, bSessionEnded=true, bCleanupResources=true
+[2021.11.03-07.47.13:437][413]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.11.03-07.47.14:003][414]LogRenderer: Reallocating scene render targets to support 1432x920 Format 10 NumSamples 1 (Frame:1).
+[2021.11.03-07.47.15:191][498]LogWorld: UWorld::CleanupWorld for World_8, bSessionEnded=true, bCleanupResources=true
+[2021.11.03-07.47.15:191][498]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.11.03-07.47.21:623][ 26]BlueprintLog: New page: Compile Melee_Enemy
+[2021.11.03-07.47.21:799][ 26]LogUObjectHash: Compacting FUObjectHashTables data took   4.23ms
+[2021.11.03-07.47.23:052][131]LogTemp: Repeating last play command: Selected Viewport
+[2021.11.03-07.47.23:063][131]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.11.03-07.47.23:064][131]PIE: New page: PIE session: FirstPersonExampleMap (4 Nov 2021, 5:47:23 am)
+[2021.11.03-07.47.23:064][131]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2021.11.03-07.47.23:075][131]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011145s)
+[2021.11.03-07.47.23:076][131]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2021.11.03-07.47.23:076][131]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (00000215A343C400), frame # 160131
+[2021.11.03-07.47.23:076][131]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (00000216155365C0), frame # 160131
+[2021.11.03-07.47.23:077][131]LogPlayLevel: PIE: World Init took: (0.001733s)
+[2021.11.03-07.47.23:077][131]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.013113s)
+[2021.11.03-07.47.23:139][131]LogUObjectHash: Compacting FUObjectHashTables data took   2.68ms
+[2021.11.03-07.47.23:141][131]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.11.03-07.47.23:141][131]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.11.03-07.47.23:141][131]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.11.03-07.47.23:141][131]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.11.03-07.47.23:142][131]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.11.03-07.47.23:142][131]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.11.03-07.47.23:142][131]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.11.03-07.47.23:142][131]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.11.03-07.47.23:142][131]LogAudio: Display: Using built-in audio occlusion.
+[2021.11.03-07.47.23:142][131]LogAudioMixer: Display: Initializing audio mixer.
+[2021.11.03-07.47.23:148][131]LogAudioMixer: Display: 0: FrontLeft
+[2021.11.03-07.47.23:148][131]LogAudioMixer: Display: 1: FrontRight
+[2021.11.03-07.47.23:176][131]LogAudioMixer: Display: Using Audio Device Speakers (Realtek High Definition Audio)
+[2021.11.03-07.47.23:177][131]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.11.03-07.47.23:177][131]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.11.03-07.47.23:177][131]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.11.03-07.47.23:177][131]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.11.03-07.47.23:192][131]LogInit: FAudioDevice initialized.
+[2021.11.03-07.47.23:204][131]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2021.11.03-07.47.23:207][131]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2021.11.03-18.47.23
+[2021.11.03-07.47.23:208][131]LogWorld: Bringing up level for play took: 0.002191
+[2021.11.03-07.47.23:208][131]LogOnline: OSS: Creating online subsystem instance for: :Context_34
+[2021.11.03-07.47.23:210][131]PIE: Server logged in
+[2021.11.03-07.47.23:211][131]PIE: Play in editor total start time 0.149 seconds.
+[2021.11.03-07.48.00:741][602]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.11.03-07.48.00:741][602]LogWorld: BeginTearingDown for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2021.11.03-07.48.00:741][602]LogWorld: UWorld::CleanupWorld for FirstPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2021.11.03-07.48.00:742][602]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.11.03-07.48.00:751][602]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.11.03-07.48.00:755][602]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.11.03-07.48.00:796][602]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.11.03-07.48.00:796][602]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (00000216155365C0), frame # 164602
+[2021.11.03-07.48.00:796][602]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (00000215A343C400), frame # 164602
+[2021.11.03-07.48.00:799][602]LogUObjectHash: Compacting FUObjectHashTables data took   2.16ms
+[2021.11.03-07.48.00:825][603]LogPlayLevel: Display: Destroying online subsystem :Context_34
+[2021.11.03-07.49.05:773][608]BlueprintLog: New page: Compile Melee_Enemy
+[2021.11.03-07.49.05:826][608]LogUObjectHash: Compacting FUObjectHashTables data took   2.91ms
+[2021.11.03-07.49.07:691][791]LogTemp: Repeating last play command: Selected Viewport
+[2021.11.03-07.49.07:702][791]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.11.03-07.49.07:702][791]PIE: New page: PIE session: FirstPersonExampleMap (4 Nov 2021, 5:49:07 am)
+[2021.11.03-07.49.07:702][791]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2021.11.03-07.49.07:715][791]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012939s)
+[2021.11.03-07.49.07:716][791]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2021.11.03-07.49.07:716][791]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000002161A8AE400), frame # 165791
+[2021.11.03-07.49.07:716][791]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (00000215EE156FC0), frame # 165791
+[2021.11.03-07.49.07:717][791]LogPlayLevel: PIE: World Init took: (0.001436s)
+[2021.11.03-07.49.07:717][791]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.014557s)
+[2021.11.03-07.49.07:743][791]LogUObjectHash: Compacting FUObjectHashTables data took   2.81ms
+[2021.11.03-07.49.07:745][791]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.11.03-07.49.07:745][791]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.11.03-07.49.07:745][791]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.11.03-07.49.07:745][791]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.11.03-07.49.07:745][791]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.11.03-07.49.07:745][791]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.11.03-07.49.07:745][791]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.11.03-07.49.07:745][791]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.11.03-07.49.07:745][791]LogAudio: Display: Using built-in audio occlusion.
+[2021.11.03-07.49.07:745][791]LogAudioMixer: Display: Initializing audio mixer.
+[2021.11.03-07.49.07:753][791]LogAudioMixer: Display: 0: FrontLeft
+[2021.11.03-07.49.07:753][791]LogAudioMixer: Display: 1: FrontRight
+[2021.11.03-07.49.07:781][791]LogAudioMixer: Display: Using Audio Device Speakers (Realtek High Definition Audio)
+[2021.11.03-07.49.07:781][791]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.11.03-07.49.07:781][791]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.11.03-07.49.07:781][791]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.11.03-07.49.07:782][791]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.11.03-07.49.07:798][791]LogInit: FAudioDevice initialized.
+[2021.11.03-07.49.07:808][791]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2021.11.03-07.49.07:811][791]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2021.11.03-18.49.07
+[2021.11.03-07.49.07:811][791]LogWorld: Bringing up level for play took: 0.002302
+[2021.11.03-07.49.07:812][791]LogOnline: OSS: Creating online subsystem instance for: :Context_35
+[2021.11.03-07.49.07:814][791]PIE: Server logged in
+[2021.11.03-07.49.07:815][791]PIE: Play in editor total start time 0.113 seconds.
+[2021.11.03-07.49.15:841][745]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.11.03-07.49.15:841][745]LogWorld: BeginTearingDown for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2021.11.03-07.49.15:841][745]LogWorld: UWorld::CleanupWorld for FirstPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2021.11.03-07.49.15:842][745]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.11.03-07.49.15:850][745]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.11.03-07.49.15:854][745]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.11.03-07.49.15:875][745]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.11.03-07.49.15:897][745]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (00000215EE156FC0), frame # 166745
+[2021.11.03-07.49.15:897][745]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000002161A8AE400), frame # 166745
+[2021.11.03-07.49.15:900][745]LogUObjectHash: Compacting FUObjectHashTables data took   2.21ms
+[2021.11.03-07.49.15:925][746]LogPlayLevel: Display: Destroying online subsystem :Context_35
+[2021.11.03-07.49.21:136][127]LogSavePackage: Moving '../../../../../../Users/ruben/OneDrive/Documents/GitHub/Group_5/Robot_Survival/Saved/Melee_EnemyB6134AE044D51663F9DCABB951AD28B8.tmp' to '../../../../../../Users/ruben/OneDrive/Documents/GitHub/Group_5/Robot_Survival/Content/FirstPersonBP/Blueprints/Melee_Enemy.uasset'
+[2021.11.03-07.49.21:152][127]AssetCheck: New page: Asset Save: Melee_Enemy
+[2021.11.03-07.49.21:152][127]LogContentValidation: Display: Validating Blueprint /Game/FirstPersonBP/Blueprints/Melee_Enemy.Melee_Enemy
+[2021.11.03-07.49.23:816][354]LogTemp: Repeating last play command: Selected Viewport
+[2021.11.03-07.49.23:827][354]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.11.03-07.49.23:827][354]PIE: New page: PIE session: FirstPersonExampleMap (4 Nov 2021, 5:49:23 am)
+[2021.11.03-07.49.23:851][354]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2021.11.03-07.49.23:863][354]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012297s)
+[2021.11.03-07.49.23:865][354]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2021.11.03-07.49.23:865][354]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000002159E3A9C00), frame # 167354
+[2021.11.03-07.49.23:865][354]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (00000215CA7A9580), frame # 167354
+[2021.11.03-07.49.23:866][354]LogPlayLevel: PIE: World Init took: (0.002241s)
+[2021.11.03-07.49.23:866][354]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.014872s)
+[2021.11.03-07.49.23:898][354]LogUObjectHash: Compacting FUObjectHashTables data took   2.55ms
+[2021.11.03-07.49.23:901][354]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.11.03-07.49.23:901][354]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.11.03-07.49.23:901][354]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.11.03-07.49.23:901][354]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.11.03-07.49.23:901][354]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.11.03-07.49.23:901][354]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.11.03-07.49.23:901][354]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.11.03-07.49.23:901][354]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.11.03-07.49.23:901][354]LogAudio: Display: Using built-in audio occlusion.
+[2021.11.03-07.49.23:901][354]LogAudioMixer: Display: Initializing audio mixer.
+[2021.11.03-07.49.23:908][354]LogAudioMixer: Display: 0: FrontLeft
+[2021.11.03-07.49.23:908][354]LogAudioMixer: Display: 1: FrontRight
+[2021.11.03-07.49.23:935][354]LogAudioMixer: Display: Using Audio Device Speakers (Realtek High Definition Audio)
+[2021.11.03-07.49.23:936][354]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.11.03-07.49.23:936][354]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.11.03-07.49.23:936][354]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.11.03-07.49.23:936][354]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.11.03-07.49.23:951][354]LogInit: FAudioDevice initialized.
+[2021.11.03-07.49.23:958][354]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2021.11.03-07.49.23:961][354]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2021.11.03-18.49.23
+[2021.11.03-07.49.23:961][354]LogWorld: Bringing up level for play took: 0.002535
+[2021.11.03-07.49.23:962][354]LogOnline: OSS: Creating online subsystem instance for: :Context_36
+[2021.11.03-07.49.23:964][354]PIE: Server logged in
+[2021.11.03-07.49.23:964][354]PIE: Play in editor total start time 0.138 seconds.
+[2021.11.03-07.49.29:611][ 24]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.11.03-07.49.29:611][ 24]LogWorld: BeginTearingDown for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2021.11.03-07.49.29:611][ 24]LogWorld: UWorld::CleanupWorld for FirstPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2021.11.03-07.49.29:612][ 24]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.11.03-07.49.29:620][ 24]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.11.03-07.49.29:624][ 24]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.11.03-07.49.29:666][ 24]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.11.03-07.49.29:668][ 24]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (00000215CA7A9580), frame # 168024
+[2021.11.03-07.49.29:668][ 24]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000002159E3A9C00), frame # 168024
+[2021.11.03-07.49.29:670][ 24]LogUObjectHash: Compacting FUObjectHashTables data took   1.94ms
+[2021.11.03-07.49.29:695][ 25]LogPlayLevel: Display: Destroying online subsystem :Context_36
+[2021.11.03-07.50.33:671][809]LogUObjectHash: Compacting FUObjectHashTables data took   2.90ms
+[2021.11.03-07.50.33:728][809]LogSavePackage: Moving '../../../../../../Users/ruben/OneDrive/Documents/GitHub/Group_5/Robot_Survival/Saved/FirstPersonExampleMap_Auto4EC7DD220478D3B00EDCC088E6F40AA65.tmp' to '../../../../../../Users/ruben/OneDrive/Documents/GitHub/Group_5/Robot_Survival/Saved/Autosaves/Game/FirstPersonBP/Maps/FirstPersonExampleMap_Auto4.umap'
+[2021.11.03-07.50.33:730][809]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FirstPersonBP/Maps/FirstPersonExampleMap' took 0.084
+[2021.11.03-07.50.33:731][809]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.084
+[2021.11.03-07.50.33:731][809]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/_MyContent/Models/Scrappy] ([1] browsable assets)...
+[2021.11.03-07.50.33:742][809]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/_MyContent/Models/Scrappy.Scrappy]
+[2021.11.03-07.50.33:742][809]OBJ SavePackage: Finished generating thumbnails for package [/Game/_MyContent/Models/Scrappy]
+[2021.11.03-07.50.33:806][809]LogSavePackage: Moving '../../../../../../Users/ruben/OneDrive/Documents/GitHub/Group_5/Robot_Survival/Saved/Scrappy_Auto4BABEE41046DAEFE22B965AB071ED05D5.tmp' to '../../../../../../Users/ruben/OneDrive/Documents/GitHub/Group_5/Robot_Survival/Saved/Autosaves/Game/_MyContent/Models/Scrappy_Auto4.uasset'
+[2021.11.03-07.50.33:808][809]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/_MyContent/Models/Metal] ([1] browsable assets)...
+[2021.11.03-07.50.33:835][809]OBJ SavePackage:     Rendered thumbnail for [Material /Game/_MyContent/Models/Metal.Metal]
+[2021.11.03-07.50.33:836][809]OBJ SavePackage: Finished generating thumbnails for package [/Game/_MyContent/Models/Metal]
+[2021.11.03-07.50.33:844][809]LogSavePackage: Moving '../../../../../../Users/ruben/OneDrive/Documents/GitHub/Group_5/Robot_Survival/Saved/Metal_Auto4C7B9D6DB43E1D441177CE298B3D6DF19.tmp' to '../../../../../../Users/ruben/OneDrive/Documents/GitHub/Group_5/Robot_Survival/Saved/Autosaves/Game/_MyContent/Models/Metal_Auto4.uasset'
+[2021.11.03-07.50.33:845][809]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/_MyContent/Models/Metal_001] ([1] browsable assets)...
+[2021.11.03-07.50.33:858][809]OBJ SavePackage:     Rendered thumbnail for [Material /Game/_MyContent/Models/Metal_001.Metal_001]
+[2021.11.03-07.50.33:858][809]OBJ SavePackage: Finished generating thumbnails for package [/Game/_MyContent/Models/Metal_001]
+[2021.11.03-07.50.33:867][809]LogSavePackage: Moving '../../../../../../Users/ruben/OneDrive/Documents/GitHub/Group_5/Robot_Survival/Saved/Metal_001_Auto4FC0E193D4860096950C7C6BE7A009F7A.tmp' to '../../../../../../Users/ruben/OneDrive/Documents/GitHub/Group_5/Robot_Survival/Saved/Autosaves/Game/_MyContent/Models/Metal_001_Auto4.uasset'
+[2021.11.03-07.50.33:868][809]LogFileHelpers: Auto-saving content packages took 0.138
+[2021.11.03-08.31.01:254][797]LogTemp: Repeating last play command: Selected Viewport
+[2021.11.03-08.31.01:276][797]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.11.03-08.31.01:277][797]PIE: New page: PIE session: FirstPersonExampleMap (4 Nov 2021, 6:31:01 am)
+[2021.11.03-08.31.01:319][797]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2021.11.03-08.31.01:363][797]LogPlayLevel: PIE: StaticDuplicateObject took: (0.043497s)
+[2021.11.03-08.31.01:368][797]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2021.11.03-08.31.01:370][797]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000002154ED0B000), frame # 180797
+[2021.11.03-08.31.01:370][797]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (00000216160507C0), frame # 180797
+[2021.11.03-08.31.01:371][797]LogPlayLevel: PIE: World Init took: (0.007872s)
+[2021.11.03-08.31.01:371][797]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.052215s)
+[2021.11.03-08.31.01:490][797]LogUObjectHash: Compacting FUObjectHashTables data took   9.91ms
+[2021.11.03-08.31.01:505][797]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.11.03-08.31.01:505][797]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.11.03-08.31.01:505][797]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.11.03-08.31.01:505][797]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.11.03-08.31.01:505][797]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.11.03-08.31.01:505][797]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.11.03-08.31.01:505][797]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.11.03-08.31.01:505][797]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.11.03-08.31.01:506][797]LogAudio: Display: Using built-in audio occlusion.
+[2021.11.03-08.31.01:506][797]LogAudioMixer: Display: Initializing audio mixer.
+[2021.11.03-08.31.01:515][797]LogAudioMixer: Display: 0: FrontLeft
+[2021.11.03-08.31.01:515][797]LogAudioMixer: Display: 1: FrontRight
+[2021.11.03-08.31.01:565][797]LogAudioMixer: Display: Using Audio Device Speakers (Realtek High Definition Audio)
+[2021.11.03-08.31.01:567][797]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.11.03-08.31.01:567][797]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.11.03-08.31.01:567][797]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.11.03-08.31.01:573][797]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.11.03-08.31.01:582][797]LogInit: FAudioDevice initialized.
+[2021.11.03-08.31.01:601][797]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2021.11.03-08.31.01:606][797]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2021.11.03-19.31.01
+[2021.11.03-08.31.01:607][797]LogWorld: Bringing up level for play took: 0.004100
+[2021.11.03-08.31.01:608][797]LogOnline: OSS: Creating online subsystem instance for: :Context_37
+[2021.11.03-08.31.01:612][797]PIE: Server logged in
+[2021.11.03-08.31.01:612][797]PIE: Play in editor total start time 0.338 seconds.
+[2021.11.03-08.31.23:034][362]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=689.103 Y=530.932 Z=299.747] for [FirstPersonProjectile_C]
+[2021.11.03-08.31.35:283][829]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=1115.313 Y=-200.810 Z=348.673] for [FirstPersonProjectile_C]
+[2021.11.03-08.31.35:458][850]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=1115.026 Y=-197.095 Z=346.671] for [FirstPersonProjectile_C]
+[2021.11.03-08.32.04:298][299]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.11.03-08.32.04:298][299]LogWorld: BeginTearingDown for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2021.11.03-08.32.04:298][299]LogWorld: UWorld::CleanupWorld for FirstPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2021.11.03-08.32.04:299][299]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.11.03-08.32.04:322][299]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.11.03-08.32.04:328][299]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.11.03-08.32.04:372][299]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.11.03-08.32.04:374][299]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (00000216160507C0), frame # 188299
+[2021.11.03-08.32.04:374][299]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000002154ED0B000), frame # 188299
+[2021.11.03-08.32.04:377][299]LogUObjectHash: Compacting FUObjectHashTables data took   2.53ms
+[2021.11.03-08.32.04:404][300]LogPlayLevel: Display: Destroying online subsystem :Context_37
+[2021.11.03-08.33.05:776][590]LogTemp: Repeating last play command: Selected Viewport
+[2021.11.03-08.33.05:792][590]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.11.03-08.33.05:792][590]PIE: New page: PIE session: FirstPersonExampleMap (4 Nov 2021, 6:33:05 am)
+[2021.11.03-08.33.05:827][590]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2021.11.03-08.33.05:840][590]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012721s)
+[2021.11.03-08.33.05:842][590]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2021.11.03-08.33.05:842][590]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (00000215E8C5E400), frame # 188590
+[2021.11.03-08.33.05:842][590]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (00000215BF9FC900), frame # 188590
+[2021.11.03-08.33.05:842][590]LogPlayLevel: PIE: World Init took: (0.001974s)
+[2021.11.03-08.33.05:842][590]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.014952s)
+[2021.11.03-08.33.05:872][590]LogUObjectHash: Compacting FUObjectHashTables data took   2.32ms
+[2021.11.03-08.33.05:875][590]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.11.03-08.33.05:875][590]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.11.03-08.33.05:875][590]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.11.03-08.33.05:875][590]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.11.03-08.33.05:875][590]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.11.03-08.33.05:875][590]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.11.03-08.33.05:875][590]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.11.03-08.33.05:875][590]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.11.03-08.33.05:875][590]LogAudio: Display: Using built-in audio occlusion.
+[2021.11.03-08.33.05:875][590]LogAudioMixer: Display: Initializing audio mixer.
+[2021.11.03-08.33.05:883][590]LogAudioMixer: Display: 0: FrontLeft
+[2021.11.03-08.33.05:883][590]LogAudioMixer: Display: 1: FrontRight
+[2021.11.03-08.33.05:914][590]LogAudioMixer: Display: Using Audio Device Speakers (Realtek High Definition Audio)
+[2021.11.03-08.33.05:914][590]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.11.03-08.33.05:914][590]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.11.03-08.33.05:915][590]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.11.03-08.33.05:915][590]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.11.03-08.33.05:928][590]LogInit: FAudioDevice initialized.
+[2021.11.03-08.33.05:937][590]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2021.11.03-08.33.05:940][590]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2021.11.03-19.33.05
+[2021.11.03-08.33.05:940][590]LogWorld: Bringing up level for play took: 0.001977
+[2021.11.03-08.33.05:940][590]LogOnline: OSS: Creating online subsystem instance for: :Context_38
+[2021.11.03-08.33.05:943][590]PIE: Server logged in
+[2021.11.03-08.33.05:943][590]PIE: Play in editor total start time 0.152 seconds.
+[2021.11.03-08.33.44:081][158]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=779.230 Y=923.365 Z=261.711] for [FirstPersonProjectile_C]
+[2021.11.03-08.34.05:247][684]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=956.093 Y=-89.123 Z=318.800] for [FirstPersonProjectile_C]
+[2021.11.03-08.34.08:208][ 35]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.11.03-08.34.08:208][ 35]LogWorld: BeginTearingDown for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2021.11.03-08.34.08:208][ 35]LogWorld: UWorld::CleanupWorld for FirstPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2021.11.03-08.34.08:209][ 35]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.11.03-08.34.08:218][ 35]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.11.03-08.34.08:222][ 35]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.11.03-08.34.08:245][ 35]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.11.03-08.34.08:270][ 35]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (00000215BF9FC900), frame # 196035
+[2021.11.03-08.34.08:270][ 35]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (00000215E8C5E400), frame # 196035
+[2021.11.03-08.34.08:272][ 35]LogUObjectHash: Compacting FUObjectHashTables data took   2.49ms
+[2021.11.03-08.34.08:300][ 36]LogPlayLevel: Display: Destroying online subsystem :Context_38
+[2021.11.03-08.51.31:225][ 71]LogSavePackage: Moving '../../../../../../Users/ruben/OneDrive/Documents/GitHub/Group_5/Robot_Survival/Saved/Melee_Enemy62A39DFE4ABF76843E2238B350CAAB18.tmp' to '../../../../../../Users/ruben/OneDrive/Documents/GitHub/Group_5/Robot_Survival/Content/FirstPersonBP/Blueprints/Melee_Enemy.uasset'
+[2021.11.03-08.51.31:263][ 71]AssetCheck: New page: Asset Save: Melee_Enemy
+[2021.11.03-08.51.31:264][ 71]LogContentValidation: Display: Validating Blueprint /Game/FirstPersonBP/Blueprints/Melee_Enemy.Melee_Enemy
+[2021.11.03-08.51.48:019][687]LogEditorTransaction: Undo Modify Component(s)
+[2021.11.03-08.53.32:153][852]LogUObjectHash: Compacting FUObjectHashTables data took   3.74ms
+[2021.11.03-08.53.32:193][852]LogSavePackage: Moving '../../../../../../Users/ruben/OneDrive/Documents/GitHub/Group_5/Robot_Survival/Saved/FirstPersonExampleMap_Auto588EB07D94D08F97E74D54EBE2519ECAA.tmp' to '../../../../../../Users/ruben/OneDrive/Documents/GitHub/Group_5/Robot_Survival/Saved/Autosaves/Game/FirstPersonBP/Maps/FirstPersonExampleMap_Auto5.umap'
+[2021.11.03-08.53.32:195][852]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FirstPersonBP/Maps/FirstPersonExampleMap' took 0.091
+[2021.11.03-08.53.32:195][852]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.091
+[2021.11.03-08.53.32:195][852]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/FirstPersonBP/Blueprints/Melee_Enemy] ([1] browsable assets)...
+[2021.11.03-08.53.32:206][852]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/FirstPersonBP/Blueprints/Melee_Enemy.Melee_Enemy]
+[2021.11.03-08.53.32:206][852]OBJ SavePackage: Finished generating thumbnails for package [/Game/FirstPersonBP/Blueprints/Melee_Enemy]
+[2021.11.03-08.53.32:231][852]LogSavePackage: Moving '../../../../../../Users/ruben/OneDrive/Documents/GitHub/Group_5/Robot_Survival/Saved/Melee_Enemy_Auto5FF865B4B47E7968F1027E684F9FA393D.tmp' to '../../../../../../Users/ruben/OneDrive/Documents/GitHub/Group_5/Robot_Survival/Saved/Autosaves/Game/FirstPersonBP/Blueprints/Melee_Enemy_Auto5.uasset'
+[2021.11.03-08.53.32:232][852]LogFileHelpers: Auto-saving content packages took 0.038
+[2021.11.03-08.53.34:609][ 50]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (EditorCube12)
+[2021.11.03-08.53.38:652][260]LogSavePackage: Moving '../../../../../../Users/ruben/OneDrive/Documents/GitHub/Group_5/Robot_Survival/Saved/Melee_EnemyFC3EF3FB4724B368B36203A28F2FBBCB.tmp' to '../../../../../../Users/ruben/OneDrive/Documents/GitHub/Group_5/Robot_Survival/Content/FirstPersonBP/Blueprints/Melee_Enemy.uasset'
+[2021.11.03-08.53.38:669][260]AssetCheck: New page: Asset Save: Melee_Enemy
+[2021.11.03-08.53.38:669][260]LogContentValidation: Display: Validating Blueprint /Game/FirstPersonBP/Blueprints/Melee_Enemy.Melee_Enemy
+[2021.11.03-08.54.18:005][605]BlueprintLog: New page: Compile Melee_Enemy
+[2021.11.03-08.54.18:056][605]LogUObjectHash: Compacting FUObjectHashTables data took   3.96ms
+[2021.11.03-08.54.18:566][633]LogSavePackage: Moving '../../../../../../Users/ruben/OneDrive/Documents/GitHub/Group_5/Robot_Survival/Saved/Melee_EnemyFB050FBE4C55F43B5157118443CD100E.tmp' to '../../../../../../Users/ruben/OneDrive/Documents/GitHub/Group_5/Robot_Survival/Content/FirstPersonBP/Blueprints/Melee_Enemy.uasset'
+[2021.11.03-08.54.18:581][633]AssetCheck: New page: Asset Save: Melee_Enemy
+[2021.11.03-08.54.18:581][633]LogContentValidation: Display: Validating Blueprint /Game/FirstPersonBP/Blueprints/Melee_Enemy.Melee_Enemy
+[2021.11.03-08.54.43:271][740]BlueprintLog: New page: Compile Melee_Enemy
+[2021.11.03-08.54.43:333][740]LogUObjectHash: Compacting FUObjectHashTables data took   3.48ms
+[2021.11.03-08.56.45:802][204]LogSavePackage: Moving '../../../../../../Users/ruben/OneDrive/Documents/GitHub/Group_5/Robot_Survival/Saved/Melee_Enemy070793334A091E7198342F98230705D2.tmp' to '../../../../../../Users/ruben/OneDrive/Documents/GitHub/Group_5/Robot_Survival/Content/FirstPersonBP/Blueprints/Melee_Enemy.uasset'
+[2021.11.03-08.56.45:821][204]AssetCheck: New page: Asset Save: Melee_Enemy
+[2021.11.03-08.56.45:821][204]LogContentValidation: Display: Validating Blueprint /Game/FirstPersonBP/Blueprints/Melee_Enemy.Melee_Enemy
+[2021.11.03-08.58.06:337][ 97]BlueprintLog: New page: Compile Melee_Enemy
+[2021.11.03-08.58.06:399][ 97]LogUObjectHash: Compacting FUObjectHashTables data took   4.43ms
+[2021.11.03-08.58.50:460][277]BlueprintLog: New page: Compile Melee_Enemy
+[2021.11.03-08.58.50:510][277]LogUObjectHash: Compacting FUObjectHashTables data took   5.50ms
+[2021.11.03-08.58.52:484][475]LogTemp: Repeating last play command: Selected Viewport
+[2021.11.03-08.58.52:494][475]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.11.03-08.58.52:494][475]PIE: New page: PIE session: FirstPersonExampleMap (4 Nov 2021, 6:58:52 am)
+[2021.11.03-08.58.52:525][475]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2021.11.03-08.58.52:537][475]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012056s)
+[2021.11.03-08.58.52:538][475]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2021.11.03-08.58.52:538][475]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000021555097E00), frame # 220475
+[2021.11.03-08.58.52:539][475]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (00000216127CB740), frame # 220475
+[2021.11.03-08.58.52:539][475]LogPlayLevel: PIE: World Init took: (0.002128s)
+[2021.11.03-08.58.52:539][475]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.014422s)
+[2021.11.03-08.58.52:571][475]LogUObjectHash: Compacting FUObjectHashTables data took   3.37ms
+[2021.11.03-08.58.52:573][475]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.11.03-08.58.52:573][475]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.11.03-08.58.52:573][475]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.11.03-08.58.52:573][475]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.11.03-08.58.52:573][475]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.11.03-08.58.52:573][475]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.11.03-08.58.52:573][475]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.11.03-08.58.52:573][475]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.11.03-08.58.52:573][475]LogAudio: Display: Using built-in audio occlusion.
+[2021.11.03-08.58.52:573][475]LogAudioMixer: Display: Initializing audio mixer.
+[2021.11.03-08.58.52:581][475]LogAudioMixer: Display: 0: FrontLeft
+[2021.11.03-08.58.52:581][475]LogAudioMixer: Display: 1: FrontRight
+[2021.11.03-08.58.52:611][475]LogAudioMixer: Display: Using Audio Device Speakers (Realtek High Definition Audio)
+[2021.11.03-08.58.52:611][475]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.11.03-08.58.52:611][475]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.11.03-08.58.52:611][475]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.11.03-08.58.52:611][475]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.11.03-08.58.52:626][475]LogInit: FAudioDevice initialized.
+[2021.11.03-08.58.52:633][475]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2021.11.03-08.58.52:636][475]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2021.11.03-19.58.52
+[2021.11.03-08.58.52:637][475]LogWorld: Bringing up level for play took: 0.002145
+[2021.11.03-08.58.52:637][475]LogOnline: OSS: Creating online subsystem instance for: :Context_39
+[2021.11.03-08.58.52:639][475]PIE: Server logged in
+[2021.11.03-08.58.52:640][475]PIE: Play in editor total start time 0.146 seconds.
+[2021.11.03-08.58.55:678][828]LogBlueprintUserMessages: [Melee_Enemy5_11] Hello
+[2021.11.03-08.58.55:678][828]LogBlueprintUserMessages: [Melee_Enemy5_11] Hello
+[2021.11.03-08.58.55:678][828]LogBlueprintUserMessages: [Melee_Enemy5_11] Hello
+[2021.11.03-08.58.56:453][921]LogBlueprintUserMessages: [Melee_Enemy5_11] Hello
+[2021.11.03-08.58.57:670][ 67]LogBlueprintUserMessages: [Melee_Enemy5_11] Hello
+[2021.11.03-08.58.57:687][ 69]LogBlueprintUserMessages: [Melee_Enemy5_11] Hello
+[2021.11.03-08.58.57:703][ 71]LogBlueprintUserMessages: [Melee_Enemy5_11] Hello
+[2021.11.03-08.58.59:713][312]LogBlueprintUserMessages: [Melee_Enemy5_11] Hello
+[2021.11.03-08.59.00:416][392]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.11.03-08.59.00:416][392]LogWorld: BeginTearingDown for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2021.11.03-08.59.00:416][392]LogWorld: UWorld::CleanupWorld for FirstPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2021.11.03-08.59.00:416][392]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.11.03-08.59.00:427][392]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.11.03-08.59.00:432][392]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.11.03-08.59.00:474][392]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.11.03-08.59.00:476][392]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (00000216127CB740), frame # 221392
+[2021.11.03-08.59.00:476][392]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000021555097E00), frame # 221392
+[2021.11.03-08.59.00:478][392]LogUObjectHash: Compacting FUObjectHashTables data took   2.12ms
+[2021.11.03-08.59.00:504][393]LogPlayLevel: Display: Destroying online subsystem :Context_39
+[2021.11.03-08.59.08:528][277]BlueprintLog: New page: Compile Melee_Enemy
+[2021.11.03-08.59.08:596][277]LogUObjectHash: Compacting FUObjectHashTables data took   3.32ms
+[2021.11.03-08.59.09:690][396]LogTemp: Repeating last play command: Selected Viewport
+[2021.11.03-08.59.09:700][396]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.11.03-08.59.09:700][396]PIE: New page: PIE session: FirstPersonExampleMap (4 Nov 2021, 6:59:09 am)
+[2021.11.03-08.59.09:725][396]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2021.11.03-08.59.09:737][396]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011482s)
+[2021.11.03-08.59.09:738][396]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2021.11.03-08.59.09:738][396]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000002154E65C600), frame # 222396
+[2021.11.03-08.59.09:738][396]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (00000215419651C0), frame # 222396
+[2021.11.03-08.59.09:739][396]LogPlayLevel: PIE: World Init took: (0.001869s)
+[2021.11.03-08.59.09:739][396]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.013614s)
+[2021.11.03-08.59.09:768][396]LogUObjectHash: Compacting FUObjectHashTables data took   2.87ms
+[2021.11.03-08.59.09:770][396]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.11.03-08.59.09:770][396]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.11.03-08.59.09:770][396]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.11.03-08.59.09:770][396]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.11.03-08.59.09:770][396]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.11.03-08.59.09:770][396]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.11.03-08.59.09:770][396]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.11.03-08.59.09:770][396]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.11.03-08.59.09:770][396]LogAudio: Display: Using built-in audio occlusion.
+[2021.11.03-08.59.09:770][396]LogAudioMixer: Display: Initializing audio mixer.
+[2021.11.03-08.59.09:776][396]LogAudioMixer: Display: 0: FrontLeft
+[2021.11.03-08.59.09:776][396]LogAudioMixer: Display: 1: FrontRight
+[2021.11.03-08.59.09:802][396]LogAudioMixer: Display: Using Audio Device Speakers (Realtek High Definition Audio)
+[2021.11.03-08.59.09:803][396]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.11.03-08.59.09:803][396]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.11.03-08.59.09:803][396]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.11.03-08.59.09:803][396]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.11.03-08.59.09:817][396]LogInit: FAudioDevice initialized.
+[2021.11.03-08.59.09:824][396]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2021.11.03-08.59.09:827][396]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2021.11.03-19.59.09
+[2021.11.03-08.59.09:827][396]LogWorld: Bringing up level for play took: 0.001988
+[2021.11.03-08.59.09:827][396]LogOnline: OSS: Creating online subsystem instance for: :Context_40
+[2021.11.03-08.59.09:830][396]PIE: Server logged in
+[2021.11.03-08.59.09:830][396]PIE: Play in editor total start time 0.131 seconds.
+[2021.11.03-08.59.12:602][725]LogBlueprintUserMessages: [Melee_Enemy5_11] Attack
+[2021.11.03-08.59.12:602][725]LogBlueprintUserMessages: [Melee_Enemy5_11] Attack
+[2021.11.03-08.59.12:610][726]LogBlueprintUserMessages: [Melee_Enemy5_11] Attack
+[2021.11.03-08.59.14:799][988]LogBlueprintUserMessages: [Melee_Enemy5_11] Attack
+[2021.11.03-08.59.16:490][191]LogBlueprintUserMessages: [Melee_Enemy5_11] Attack
+[2021.11.03-08.59.16:498][192]LogBlueprintUserMessages: [Melee_Enemy5_11] Attack
+[2021.11.03-08.59.19:207][517]LogBlueprintUserMessages: [Melee_Enemy5_11] Attack
+[2021.11.03-08.59.19:207][517]LogBlueprintUserMessages: [Melee_Enemy5_11] Attack
+[2021.11.03-08.59.19:215][518]LogBlueprintUserMessages: [Melee_Enemy5_11] Attack
+[2021.11.03-08.59.20:407][655]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.11.03-08.59.20:407][655]LogWorld: BeginTearingDown for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2021.11.03-08.59.20:407][655]LogWorld: UWorld::CleanupWorld for FirstPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2021.11.03-08.59.20:407][655]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.11.03-08.59.20:422][655]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.11.03-08.59.20:428][655]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.11.03-08.59.20:471][655]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.11.03-08.59.20:472][655]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (00000215419651C0), frame # 223655
+[2021.11.03-08.59.20:472][655]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000002154E65C600), frame # 223655
+[2021.11.03-08.59.20:475][655]LogUObjectHash: Compacting FUObjectHashTables data took   2.03ms
+[2021.11.03-08.59.20:503][656]LogPlayLevel: Display: Destroying online subsystem :Context_40
+[2021.11.03-08.59.30:514][768]BlueprintLog: New page: Compile Melee_Enemy
+[2021.11.03-08.59.30:572][768]LogUObjectHash: Compacting FUObjectHashTables data took   2.88ms
+[2021.11.03-08.59.31:833][893]LogTemp: Repeating last play command: Selected Viewport
+[2021.11.03-08.59.31:843][893]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.11.03-08.59.31:844][893]PIE: New page: PIE session: FirstPersonExampleMap (4 Nov 2021, 6:59:31 am)
+[2021.11.03-08.59.31:865][893]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2021.11.03-08.59.31:879][893]LogPlayLevel: PIE: StaticDuplicateObject took: (0.013453s)
+[2021.11.03-08.59.31:880][893]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2021.11.03-08.59.31:880][893]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (00000215A5EE4C00), frame # 224893
+[2021.11.03-08.59.31:880][893]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (00000215419120C0), frame # 224893
+[2021.11.03-08.59.31:881][893]LogPlayLevel: PIE: World Init took: (0.002046s)
+[2021.11.03-08.59.31:881][893]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.015752s)
+[2021.11.03-08.59.31:912][893]LogUObjectHash: Compacting FUObjectHashTables data took   2.92ms
+[2021.11.03-08.59.31:914][893]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.11.03-08.59.31:914][893]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.11.03-08.59.31:914][893]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.11.03-08.59.31:914][893]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.11.03-08.59.31:914][893]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.11.03-08.59.31:914][893]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.11.03-08.59.31:914][893]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.11.03-08.59.31:914][893]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.11.03-08.59.31:914][893]LogAudio: Display: Using built-in audio occlusion.
+[2021.11.03-08.59.31:914][893]LogAudioMixer: Display: Initializing audio mixer.
+[2021.11.03-08.59.31:921][893]LogAudioMixer: Display: 0: FrontLeft
+[2021.11.03-08.59.31:921][893]LogAudioMixer: Display: 1: FrontRight
+[2021.11.03-08.59.31:947][893]LogAudioMixer: Display: Using Audio Device Speakers (Realtek High Definition Audio)
+[2021.11.03-08.59.31:947][893]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.11.03-08.59.31:947][893]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.11.03-08.59.31:947][893]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.11.03-08.59.31:948][893]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.11.03-08.59.31:962][893]LogInit: FAudioDevice initialized.
+[2021.11.03-08.59.31:967][893]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2021.11.03-08.59.31:970][893]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2021.11.03-19.59.31
+[2021.11.03-08.59.31:970][893]LogWorld: Bringing up level for play took: 0.001791
+[2021.11.03-08.59.31:971][893]LogOnline: OSS: Creating online subsystem instance for: :Context_41
+[2021.11.03-08.59.31:986][893]LogBlueprintUserMessages: [Melee_Enemy5_11] Attack
+[2021.11.03-08.59.31:986][893]PIE: Server logged in
+[2021.11.03-08.59.31:987][893]PIE: Play in editor total start time 0.144 seconds.
+[2021.11.03-08.59.44:186][347]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.11.03-08.59.44:186][347]LogWorld: BeginTearingDown for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2021.11.03-08.59.44:186][347]LogWorld: UWorld::CleanupWorld for FirstPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2021.11.03-08.59.44:186][347]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.11.03-08.59.44:200][347]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.11.03-08.59.44:205][347]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.11.03-08.59.44:248][347]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.11.03-08.59.44:249][347]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (00000215419120C0), frame # 226347
+[2021.11.03-08.59.44:249][347]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (00000215A5EE4C00), frame # 226347
+[2021.11.03-08.59.44:252][347]LogUObjectHash: Compacting FUObjectHashTables data took   2.28ms
+[2021.11.03-08.59.44:279][348]LogPlayLevel: Display: Destroying online subsystem :Context_41
+[2021.11.03-09.00.47:058][494]BlueprintLog: New page: Compile Melee_Enemy
+[2021.11.03-09.00.47:109][494]LogUObjectHash: Compacting FUObjectHashTables data took   2.95ms
+[2021.11.03-09.00.49:541][700]LogTemp: Repeating last play command: Selected Viewport
+[2021.11.03-09.00.49:553][700]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.11.03-09.00.49:553][700]PIE: New page: PIE session: FirstPersonExampleMap (4 Nov 2021, 7:00:49 am)
+[2021.11.03-09.00.49:585][700]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2021.11.03-09.00.49:597][700]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012278s)
+[2021.11.03-09.00.49:598][700]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2021.11.03-09.00.49:598][700]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (00000215A34EC400), frame # 227700
+[2021.11.03-09.00.49:599][700]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000021541912480), frame # 227700
+[2021.11.03-09.00.49:599][700]LogPlayLevel: PIE: World Init took: (0.001827s)
+[2021.11.03-09.00.49:599][700]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.014376s)
+[2021.11.03-09.00.49:680][700]LogUObjectHash: Compacting FUObjectHashTables data took   3.42ms
+[2021.11.03-09.00.49:690][700]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.11.03-09.00.49:690][700]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.11.03-09.00.49:690][700]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.11.03-09.00.49:690][700]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.11.03-09.00.49:690][700]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.11.03-09.00.49:690][700]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.11.03-09.00.49:690][700]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.11.03-09.00.49:690][700]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.11.03-09.00.49:691][700]LogAudio: Display: Using built-in audio occlusion.
+[2021.11.03-09.00.49:691][700]LogAudioMixer: Display: Initializing audio mixer.
+[2021.11.03-09.00.49:697][700]LogAudioMixer: Display: 0: FrontLeft
+[2021.11.03-09.00.49:697][700]LogAudioMixer: Display: 1: FrontRight
+[2021.11.03-09.00.49:726][700]LogAudioMixer: Display: Using Audio Device Speakers (Realtek High Definition Audio)
+[2021.11.03-09.00.49:727][700]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.11.03-09.00.49:727][700]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.11.03-09.00.49:727][700]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.11.03-09.00.49:727][700]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.11.03-09.00.49:743][700]LogInit: FAudioDevice initialized.
+[2021.11.03-09.00.49:752][700]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2021.11.03-09.00.49:756][700]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2021.11.03-20.00.49
+[2021.11.03-09.00.49:756][700]LogWorld: Bringing up level for play took: 0.002829
+[2021.11.03-09.00.49:757][700]LogOnline: OSS: Creating online subsystem instance for: :Context_42
+[2021.11.03-09.00.49:759][700]LogBlueprintUserMessages: [Melee_Enemy5_11] Attack
+[2021.11.03-09.00.49:759][700]PIE: Server logged in
+[2021.11.03-09.00.49:760][700]PIE: Play in editor total start time 0.208 seconds.
+[2021.11.03-09.00.52:576][ 28]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.11.03-09.00.52:576][ 28]LogWorld: BeginTearingDown for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2021.11.03-09.00.52:576][ 28]LogWorld: UWorld::CleanupWorld for FirstPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2021.11.03-09.00.52:577][ 28]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.11.03-09.00.52:586][ 28]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.11.03-09.00.52:589][ 28]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.11.03-09.00.52:631][ 28]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.11.03-09.00.52:632][ 28]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000021541912480), frame # 228028
+[2021.11.03-09.00.52:632][ 28]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (00000215A34EC400), frame # 228028
+[2021.11.03-09.00.52:635][ 28]LogUObjectHash: Compacting FUObjectHashTables data took   2.32ms
+[2021.11.03-09.00.52:665][ 29]LogPlayLevel: Display: Destroying online subsystem :Context_42
+[2021.11.03-09.00.58:170][557]BlueprintLog: New page: Compile Melee_Enemy
+[2021.11.03-09.00.58:228][557]LogUObjectHash: Compacting FUObjectHashTables data took   2.47ms
+[2021.11.03-09.01.02:151][978]LogTemp: Repeating last play command: Selected Viewport
+[2021.11.03-09.01.02:161][978]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.11.03-09.01.02:161][978]PIE: New page: PIE session: FirstPersonExampleMap (4 Nov 2021, 7:01:02 am)
+[2021.11.03-09.01.02:215][978]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2021.11.03-09.01.02:227][978]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011895s)
+[2021.11.03-09.01.02:229][978]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2021.11.03-09.01.02:229][978]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000021615D4F800), frame # 228978
+[2021.11.03-09.01.02:229][978]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000021591E8A5C0), frame # 228978
+[2021.11.03-09.01.02:230][978]LogPlayLevel: PIE: World Init took: (0.002341s)
+[2021.11.03-09.01.02:230][978]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.014519s)
+[2021.11.03-09.01.02:261][978]LogUObjectHash: Compacting FUObjectHashTables data took   3.47ms
+[2021.11.03-09.01.02:263][978]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.11.03-09.01.02:263][978]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.11.03-09.01.02:263][978]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.11.03-09.01.02:263][978]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.11.03-09.01.02:263][978]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.11.03-09.01.02:263][978]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.11.03-09.01.02:263][978]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.11.03-09.01.02:263][978]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.11.03-09.01.02:263][978]LogAudio: Display: Using built-in audio occlusion.
+[2021.11.03-09.01.02:263][978]LogAudioMixer: Display: Initializing audio mixer.
+[2021.11.03-09.01.02:270][978]LogAudioMixer: Display: 0: FrontLeft
+[2021.11.03-09.01.02:270][978]LogAudioMixer: Display: 1: FrontRight
+[2021.11.03-09.01.02:306][978]LogAudioMixer: Display: Using Audio Device Speakers (Realtek High Definition Audio)
+[2021.11.03-09.01.02:306][978]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.11.03-09.01.02:306][978]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.11.03-09.01.02:306][978]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.11.03-09.01.02:307][978]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.11.03-09.01.02:322][978]LogInit: FAudioDevice initialized.
+[2021.11.03-09.01.02:333][978]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2021.11.03-09.01.02:336][978]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2021.11.03-20.01.02
+[2021.11.03-09.01.02:337][978]LogWorld: Bringing up level for play took: 0.002289
+[2021.11.03-09.01.02:337][978]LogOnline: OSS: Creating online subsystem instance for: :Context_43
+[2021.11.03-09.01.02:339][978]PIE: Server logged in
+[2021.11.03-09.01.02:340][978]PIE: Play in editor total start time 0.18 seconds.
+[2021.11.03-09.01.05:426][340]LogBlueprintUserMessages: [Melee_Enemy5_11] Attack
+[2021.11.03-09.01.05:434][341]LogBlueprintUserMessages: [Melee_Enemy5_11] Attack
+[2021.11.03-09.01.05:468][345]LogBlueprintUserMessages: [Melee_Enemy5_11] Attack
+[2021.11.03-09.01.11:832][106]LogBlueprintUserMessages: [Melee_Enemy5_11] Attack
+[2021.11.03-09.01.12:382][172]LogBlueprintUserMessages: [Melee_Enemy5_11] Attack
+[2021.11.03-09.01.12:382][172]LogBlueprintUserMessages: [Melee_Enemy5_11] Attack
+[2021.11.03-09.01.12:407][175]LogBlueprintUserMessages: [Melee_Enemy5_11] Attack
+[2021.11.03-09.01.12:807][223]LogBlueprintUserMessages: [Melee_Enemy5_11] Attack
+[2021.11.03-09.01.13:732][334]LogBlueprintUserMessages: [Melee_Enemy5_11] Attack
+[2021.11.03-09.01.13:732][334]LogBlueprintUserMessages: [Melee_Enemy5_11] Attack
+[2021.11.03-09.01.13:783][340]LogBlueprintUserMessages: [Melee_Enemy5_11] Attack
+[2021.11.03-09.01.13:811][344]LogHttp: Warning: 0000021615842400: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B3B64202B-4751-0A2D-C18B-CCAC646FEE03%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.25.4-14469661%2B%2B%2BUE4%2BRelease-4.25&UserID=b992081d4c8d8a9e421e6794e48f99cd%7C806ad9bcb2894ea2b2115c845ca9a0ab%7C4b7d00be-395d-41e3-bd29-aff64a471900&AppEnvironment=datacollector-source&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2021.11.03-09.01.13:811][344]LogHttp: Warning: 0000021615842400: request failed, libcurl error: 0 (No error)
+[2021.11.03-09.01.13:811][344]LogHttp: Warning: 0000021615842400: libcurl info message cache 0 (Found bundle for host datarouter.ol.epicgames.com: 0x21500d2ff70 [can pipeline])
+[2021.11.03-09.01.13:811][344]LogHttp: Warning: 0000021615842400: libcurl info message cache 1 (Re-using existing connection! (#54) with host datarouter.ol.epicgames.com)
+[2021.11.03-09.01.13:811][344]LogHttp: Warning: 0000021615842400: libcurl info message cache 2 (Connected to datarouter.ol.epicgames.com (107.21.41.210) port 443 (#54))
+[2021.11.03-09.01.13:811][344]LogHttp: Warning: 0000021615842400: libcurl info message cache 3 (We are completely uploaded and fine)
+[2021.11.03-09.01.13:811][344]LogHttp: Warning: 0000021615842400: libcurl info message cache 4 (TLSv1.2 (IN), TLS alert, Client hello (1):)
+[2021.11.03-09.01.13:811][344]LogHttp: Warning: 0000021615842400: libcurl info message cache 5 (Connection died, retrying a fresh connect)
+[2021.11.03-09.01.13:811][344]LogHttp: Warning: 0000021615842400: libcurl info message cache 6 (necessary data rewind wasn't possible)
+[2021.11.03-09.01.13:812][344]LogHttp: Warning: 0000021615842400: libcurl info message cache 7 (Closing connection 54)
+[2021.11.03-09.01.13:812][344]LogHttp: Warning: 0000021615842400: libcurl info message cache 8 (TLSv1.2 (OUT), TLS alert, Client hello (1):)
+[2021.11.03-09.01.13:820][345]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B3B64202B-4751-0A2D-C18B-CCAC646FEE03%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.25.4-14469661%2B%2B%2BUE4%2BRelease-4.25&UserID=b992081d4c8d8a9e421e6794e48f99cd%7C806ad9bcb2894ea2b2115c845ca9a0ab%7C4b7d00be-395d-41e3-bd29-aff64a471900&AppEnvironment=datacollector-source&UploadType=eteventstream
+[2021.11.03-09.01.13:999][366]LogBlueprintUserMessages: [Melee_Enemy5_11] Attack
+[2021.11.03-09.01.14:057][373]LogBlueprintUserMessages: [Melee_Enemy5_11] Attack
+[2021.11.03-09.01.14:065][374]LogBlueprintUserMessages: [Melee_Enemy5_11] Attack
+[2021.11.03-09.01.20:556][147]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.11.03-09.01.20:556][147]LogWorld: BeginTearingDown for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2021.11.03-09.01.20:556][147]LogWorld: UWorld::CleanupWorld for FirstPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2021.11.03-09.01.20:557][147]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.11.03-09.01.20:570][147]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.11.03-09.01.20:575][147]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.11.03-09.01.20:618][147]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.11.03-09.01.20:620][147]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000021591E8A5C0), frame # 231147
+[2021.11.03-09.01.20:620][147]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000021615D4F800), frame # 231147
+[2021.11.03-09.01.20:622][147]LogUObjectHash: Compacting FUObjectHashTables data took   2.44ms
+[2021.11.03-09.01.20:647][148]LogPlayLevel: Display: Destroying online subsystem :Context_43
+[2021.11.03-09.01.33:660][501]LogTemp: Repeating last play command: Selected Viewport
+[2021.11.03-09.01.33:671][501]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.11.03-09.01.33:671][501]PIE: New page: PIE session: FirstPersonExampleMap (4 Nov 2021, 7:01:33 am)
+[2021.11.03-09.01.33:705][501]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2021.11.03-09.01.33:718][501]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012404s)
+[2021.11.03-09.01.33:719][501]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2021.11.03-09.01.33:720][501]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000002153D841600), frame # 231501
+[2021.11.03-09.01.33:720][501]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000021554EB6840), frame # 231501
+[2021.11.03-09.01.33:720][501]LogPlayLevel: PIE: World Init took: (0.002442s)
+[2021.11.03-09.01.33:720][501]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.015087s)
+[2021.11.03-09.01.33:749][501]LogUObjectHash: Compacting FUObjectHashTables data took   2.42ms
+[2021.11.03-09.01.33:751][501]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.11.03-09.01.33:751][501]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.11.03-09.01.33:751][501]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.11.03-09.01.33:751][501]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.11.03-09.01.33:751][501]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.11.03-09.01.33:751][501]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.11.03-09.01.33:751][501]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.11.03-09.01.33:751][501]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.11.03-09.01.33:752][501]LogAudio: Display: Using built-in audio occlusion.
+[2021.11.03-09.01.33:752][501]LogAudioMixer: Display: Initializing audio mixer.
+[2021.11.03-09.01.33:757][501]LogAudioMixer: Display: 0: FrontLeft
+[2021.11.03-09.01.33:757][501]LogAudioMixer: Display: 1: FrontRight
+[2021.11.03-09.01.33:784][501]LogAudioMixer: Display: Using Audio Device Speakers (Realtek High Definition Audio)
+[2021.11.03-09.01.33:785][501]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.11.03-09.01.33:785][501]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.11.03-09.01.33:785][501]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.11.03-09.01.33:786][501]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.11.03-09.01.33:799][501]LogInit: FAudioDevice initialized.
+[2021.11.03-09.01.33:809][501]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2021.11.03-09.01.33:812][501]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2021.11.03-20.01.33
+[2021.11.03-09.01.33:812][501]LogWorld: Bringing up level for play took: 0.002193
+[2021.11.03-09.01.33:813][501]LogOnline: OSS: Creating online subsystem instance for: :Context_44
+[2021.11.03-09.01.33:815][501]PIE: Server logged in
+[2021.11.03-09.01.33:816][501]PIE: Play in editor total start time 0.146 seconds.
+[2021.11.03-09.01.38:617][ 71]LogBlueprintUserMessages: [Melee_Enemy5_11] Attack
+[2021.11.03-09.01.38:626][ 72]LogBlueprintUserMessages: [Melee_Enemy5_11] Attack
+[2021.11.03-09.01.38:626][ 72]LogBlueprintUserMessages: [Melee_Enemy5_11] Attack
+[2021.11.03-09.01.39:605][184]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.11.03-09.01.39:605][184]LogWorld: BeginTearingDown for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2021.11.03-09.01.39:605][184]LogWorld: UWorld::CleanupWorld for FirstPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2021.11.03-09.01.39:606][184]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.11.03-09.01.39:618][184]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.11.03-09.01.39:622][184]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.11.03-09.01.39:667][184]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.11.03-09.01.39:668][184]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000021554EB6840), frame # 232184
+[2021.11.03-09.01.39:668][184]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000002153D841600), frame # 232184
+[2021.11.03-09.01.39:671][184]LogUObjectHash: Compacting FUObjectHashTables data took   2.15ms
+[2021.11.03-09.01.39:701][185]LogPlayLevel: Display: Destroying online subsystem :Context_44
+[2021.11.03-09.01.50:460][938]BlueprintLog: New page: Compile Melee_Enemy
+[2021.11.03-09.01.50:518][938]LogUObjectHash: Compacting FUObjectHashTables data took   2.99ms
+[2021.11.03-09.01.57:568][602]LogTemp: Repeating last play command: Selected Viewport
+[2021.11.03-09.01.57:578][602]BlueprintLog: New page: Pre-Play auto-recompile
+[2021.11.03-09.01.57:578][602]LogPlayLevel: [PlayLevel] Compiling Melee_Enemy before play...
+[2021.11.03-09.01.57:655][602]LogUObjectHash: Compacting FUObjectHashTables data took   3.53ms
+[2021.11.03-09.01.57:657][602]LogPlayLevel: PlayLevel: Blueprint regeneration took 79 ms (1 blueprints)
+[2021.11.03-09.01.57:657][602]PIE: New page: PIE session: FirstPersonExampleMap (4 Nov 2021, 7:01:57 am)
+[2021.11.03-09.01.57:657][602]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2021.11.03-09.01.57:670][602]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012742s)
+[2021.11.03-09.01.57:671][602]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2021.11.03-09.01.57:671][602]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000021541C2FE00), frame # 233602
+[2021.11.03-09.01.57:671][602]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (00000215FB8A79C0), frame # 233602
+[2021.11.03-09.01.57:672][602]LogPlayLevel: PIE: World Init took: (0.001623s)
+[2021.11.03-09.01.57:672][602]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.014546s)
+[2021.11.03-09.01.57:702][602]LogUObjectHash: Compacting FUObjectHashTables data took   2.56ms
+[2021.11.03-09.01.57:703][602]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.11.03-09.01.57:703][602]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.11.03-09.01.57:703][602]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.11.03-09.01.57:703][602]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.11.03-09.01.57:703][602]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.11.03-09.01.57:703][602]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.11.03-09.01.57:703][602]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.11.03-09.01.57:703][602]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.11.03-09.01.57:704][602]LogAudio: Display: Using built-in audio occlusion.
+[2021.11.03-09.01.57:704][602]LogAudioMixer: Display: Initializing audio mixer.
+[2021.11.03-09.01.57:712][602]LogAudioMixer: Display: 0: FrontLeft
+[2021.11.03-09.01.57:712][602]LogAudioMixer: Display: 1: FrontRight
+[2021.11.03-09.01.57:741][602]LogAudioMixer: Display: Using Audio Device Speakers (Realtek High Definition Audio)
+[2021.11.03-09.01.57:742][602]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.11.03-09.01.57:742][602]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.11.03-09.01.57:742][602]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.11.03-09.01.57:742][602]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.11.03-09.01.57:759][602]LogInit: FAudioDevice initialized.
+[2021.11.03-09.01.57:771][602]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2021.11.03-09.01.57:773][602]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2021.11.03-20.01.57
+[2021.11.03-09.01.57:774][602]LogWorld: Bringing up level for play took: 0.001848
+[2021.11.03-09.01.57:774][602]LogOnline: OSS: Creating online subsystem instance for: :Context_45
+[2021.11.03-09.01.57:776][602]PIE: Server logged in
+[2021.11.03-09.01.57:777][602]PIE: Play in editor total start time 0.2 seconds.
+[2021.11.03-09.02.01:285][ 17]LogBlueprintUserMessages: [Melee_Enemy5_11] Attack
+[2021.11.03-09.02.01:301][ 19]LogBlueprintUserMessages: [Melee_Enemy5_11] Attack
+[2021.11.03-09.02.01:368][ 27]LogBlueprintUserMessages: [Melee_Enemy5_11] Attack
+[2021.11.03-09.02.06:196][606]LogBlueprintUserMessages: [Melee_Enemy5_11] Attack
+[2021.11.03-09.02.08:640][899]LogBlueprintUserMessages: [Melee_Enemy5_11] Attack
+[2021.11.03-09.02.08:640][899]LogBlueprintUserMessages: [Melee_Enemy5_11] Attack
+[2021.11.03-09.02.08:649][900]LogBlueprintUserMessages: [Melee_Enemy5_11] Attack
+[2021.11.03-09.02.09:220][967]LogBlueprintUserMessages: [Melee_Enemy5_11] Attack
+[2021.11.03-09.02.09:228][968]LogBlueprintUserMessages: [Melee_Enemy5_11] Attack
+[2021.11.03-09.02.09:236][969]LogBlueprintUserMessages: [Melee_Enemy5_11] Attack
+[2021.11.03-09.02.10:216][ 80]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.11.03-09.02.10:216][ 80]LogWorld: BeginTearingDown for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2021.11.03-09.02.10:216][ 80]LogWorld: UWorld::CleanupWorld for FirstPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2021.11.03-09.02.10:216][ 80]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.11.03-09.02.10:228][ 80]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.11.03-09.02.10:233][ 80]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.11.03-09.02.10:277][ 80]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.11.03-09.02.10:279][ 80]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (00000215FB8A79C0), frame # 235080
+[2021.11.03-09.02.10:279][ 80]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000021541C2FE00), frame # 235080
+[2021.11.03-09.02.10:282][ 80]LogUObjectHash: Compacting FUObjectHashTables data took   2.36ms
+[2021.11.03-09.02.10:311][ 81]LogPlayLevel: Display: Destroying online subsystem :Context_45
+[2021.11.03-09.03.03:190][484]LogEditorTransaction: Undo Modify Component(s)
+[2021.11.03-09.03.03:557][494]LogEditorTransaction: Undo Modify Component(s)
+[2021.11.03-09.03.03:789][506]LogEditorTransaction: Undo Modify Component(s)
+[2021.11.03-09.03.47:753][977]LogTemp: Repeating last play command: Selected Viewport
+[2021.11.03-09.03.47:764][977]BlueprintLog: New page: Pre-Play auto-recompile
+[2021.11.03-09.03.47:765][977]LogPlayLevel: [PlayLevel] Compiling Melee_Enemy before play...
+[2021.11.03-09.03.47:876][977]LogUObjectHash: Compacting FUObjectHashTables data took   3.32ms
+[2021.11.03-09.03.47:887][977]LogPlayLevel: PlayLevel: Blueprint regeneration took 123 ms (1 blueprints)
+[2021.11.03-09.03.47:887][977]PIE: New page: PIE session: FirstPersonExampleMap (4 Nov 2021, 7:03:47 am)
+[2021.11.03-09.03.47:887][977]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2021.11.03-09.03.47:905][977]LogPlayLevel: PIE: StaticDuplicateObject took: (0.017809s)
+[2021.11.03-09.03.47:907][977]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2021.11.03-09.03.47:907][977]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (00000215900BE000), frame # 239977
+[2021.11.03-09.03.47:907][977]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (00000215FB8A5440), frame # 239977
+[2021.11.03-09.03.47:907][977]LogPlayLevel: PIE: World Init took: (0.001763s)
+[2021.11.03-09.03.47:907][977]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.019770s)
+[2021.11.03-09.03.47:937][977]LogUObjectHash: Compacting FUObjectHashTables data took   2.55ms
+[2021.11.03-09.03.47:939][977]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.11.03-09.03.47:939][977]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.11.03-09.03.47:939][977]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.11.03-09.03.47:939][977]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.11.03-09.03.47:939][977]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.11.03-09.03.47:939][977]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.11.03-09.03.47:939][977]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.11.03-09.03.47:939][977]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.11.03-09.03.47:939][977]LogAudio: Display: Using built-in audio occlusion.
+[2021.11.03-09.03.47:939][977]LogAudioMixer: Display: Initializing audio mixer.
+[2021.11.03-09.03.47:947][977]LogAudioMixer: Display: 0: FrontLeft
+[2021.11.03-09.03.47:947][977]LogAudioMixer: Display: 1: FrontRight
+[2021.11.03-09.03.47:976][977]LogAudioMixer: Display: Using Audio Device Speakers (Realtek High Definition Audio)
+[2021.11.03-09.03.47:977][977]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.11.03-09.03.47:977][977]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.11.03-09.03.47:977][977]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.11.03-09.03.47:977][977]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.11.03-09.03.47:992][977]LogInit: FAudioDevice initialized.
+[2021.11.03-09.03.47:998][977]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2021.11.03-09.03.48:001][977]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2021.11.03-20.03.48
+[2021.11.03-09.03.48:002][977]LogWorld: Bringing up level for play took: 0.002292
+[2021.11.03-09.03.48:002][977]LogOnline: OSS: Creating online subsystem instance for: :Context_46
+[2021.11.03-09.03.48:004][977]PIE: Server logged in
+[2021.11.03-09.03.48:005][977]PIE: Play in editor total start time 0.242 seconds.
+[2021.11.03-09.03.50:771][306]LogBlueprintUserMessages: [Melee_Enemy5_11] Attack
+[2021.11.03-09.03.50:771][306]LogBlueprintUserMessages: [Melee_Enemy5_11] Attack
+[2021.11.03-09.03.50:788][308]LogBlueprintUserMessages: [Melee_Enemy5_11] Attack
+[2021.11.03-09.03.55:005][809]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.11.03-09.03.55:005][809]LogWorld: BeginTearingDown for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2021.11.03-09.03.55:005][809]LogWorld: UWorld::CleanupWorld for FirstPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2021.11.03-09.03.55:006][809]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.11.03-09.03.55:016][809]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.11.03-09.03.55:020][809]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.11.03-09.03.55:041][809]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.11.03-09.03.55:063][809]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (00000215FB8A5440), frame # 240809
+[2021.11.03-09.03.55:063][809]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (00000215900BE000), frame # 240809
+[2021.11.03-09.03.55:066][809]LogUObjectHash: Compacting FUObjectHashTables data took   2.31ms
+[2021.11.03-09.03.55:092][810]LogPlayLevel: Display: Destroying online subsystem :Context_46
+[2021.11.03-09.04.00:558][394]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter
+[2021.11.03-09.04.14:025][542]LogWorld: UWorld::CleanupWorld for World_9, bSessionEnded=true, bCleanupResources=true
+[2021.11.03-09.04.14:025][542]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.11.03-09.04.57:228][268]LogUObjectHash: Compacting FUObjectHashTables data took   2.92ms
+[2021.11.03-09.04.57:266][268]LogSavePackage: Moving '../../../../../../Users/ruben/OneDrive/Documents/GitHub/Group_5/Robot_Survival/Saved/FirstPersonExampleMap_Auto6E0C2DA164D742B4FEBE375AC6B809733.tmp' to '../../../../../../Users/ruben/OneDrive/Documents/GitHub/Group_5/Robot_Survival/Saved/Autosaves/Game/FirstPersonBP/Maps/FirstPersonExampleMap_Auto6.umap'
+[2021.11.03-09.04.57:268][268]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FirstPersonBP/Maps/FirstPersonExampleMap' took 0.069
+[2021.11.03-09.04.57:268][268]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.069
+[2021.11.03-09.04.57:269][268]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/FirstPersonBP/Blueprints/Melee_Enemy] ([1] browsable assets)...
+[2021.11.03-09.04.57:284][268]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/FirstPersonBP/Blueprints/Melee_Enemy.Melee_Enemy]
+[2021.11.03-09.04.57:285][268]OBJ SavePackage: Finished generating thumbnails for package [/Game/FirstPersonBP/Blueprints/Melee_Enemy]
+[2021.11.03-09.04.57:309][268]LogSavePackage: Moving '../../../../../../Users/ruben/OneDrive/Documents/GitHub/Group_5/Robot_Survival/Saved/Melee_Enemy_Auto69398C35B455B89DEF1FC489F9B5A2059.tmp' to '../../../../../../Users/ruben/OneDrive/Documents/GitHub/Group_5/Robot_Survival/Saved/Autosaves/Game/FirstPersonBP/Blueprints/Melee_Enemy_Auto6.uasset'
+[2021.11.03-09.04.57:310][268]LogFileHelpers: Auto-saving content packages took 0.042
+[2021.11.03-09.07.31:386][379]LogUObjectHash: Compacting FUObjectHashTables data took   2.44ms
+[2021.11.03-09.07.31:420][379]LogSavePackage: Moving '../../../../../../Users/ruben/OneDrive/Documents/GitHub/Group_5/Robot_Survival/Saved/FirstPersonExampleMap481D4D73483A7BEDA5ABCDBA9E9F730E.tmp' to '../../../../../../Users/ruben/OneDrive/Documents/GitHub/Group_5/Robot_Survival/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap'
+[2021.11.03-09.07.32:304][379]LogSavePackage: Moving '../../../../../../Users/ruben/OneDrive/Documents/GitHub/Group_5/Robot_Survival/Saved/FirstPersonExampleMap_BuiltDataE91728034DE835FE6F4829B9D5E5FA9F.tmp' to '../../../../../../Users/ruben/OneDrive/Documents/GitHub/Group_5/Robot_Survival/Content/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData.uasset'
+[2021.11.03-09.07.32:338][379]AssetCheck: New page: Asset Save: multiple assets
+[2021.11.03-09.07.32:338][379]LogContentValidation: Display: Validating World /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap
+[2021.11.03-09.07.32:338][379]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData.FirstPersonExampleMap_BuiltData
+[2021.11.03-09.09.52:025][304]LogUObjectHash: Compacting FUObjectHashTables data took   3.07ms
+[2021.11.03-09.09.52:071][304]LogSavePackage: Moving '../../../../../../Users/ruben/OneDrive/Documents/GitHub/Group_5/Robot_Survival/Saved/FirstPersonExampleMapC32D93BC44E420CB265EE3B39CDF0C3F.tmp' to '../../../../../../Users/ruben/OneDrive/Documents/GitHub/Group_5/Robot_Survival/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap'
+[2021.11.03-09.09.52:846][304]LogSavePackage: Moving '../../../../../../Users/ruben/OneDrive/Documents/GitHub/Group_5/Robot_Survival/Saved/FirstPersonExampleMap_BuiltData6CC33EAF4B063707829D1C81DAFF2EE5.tmp' to '../../../../../../Users/ruben/OneDrive/Documents/GitHub/Group_5/Robot_Survival/Content/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData.uasset'
+[2021.11.03-09.09.52:873][304]AssetCheck: New page: Asset Save: multiple assets
+[2021.11.03-09.09.52:873][304]LogContentValidation: Display: Validating World /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap
+[2021.11.03-09.09.52:873][304]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData.FirstPersonExampleMap_BuiltData
+[2021.11.03-09.09.55:679][624]LogUObjectHash: Compacting FUObjectHashTables data took   0.68ms
+[2021.11.03-09.09.56:574][624]LogSlate: Window 'Save Content' being destroyed
+[2021.11.03-09.09.56:613][624]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/_MyContent/Models/Metal" FILE="../../../../../../Users/ruben/OneDrive/Documents/GitHub/Group_5/Robot_Survival/Content/_MyContent/Models/Metal.uasset" SILENT=true
+[2021.11.03-09.09.56:618][624]LogSavePackage: Moving '../../../../../../Users/ruben/OneDrive/Documents/GitHub/Group_5/Robot_Survival/Saved/Metal3DADB44D4A8C4552DF2CC0BB1FD7BDD2.tmp' to '../../../../../../Users/ruben/OneDrive/Documents/GitHub/Group_5/Robot_Survival/Content/_MyContent/Models/Metal.uasset'
+[2021.11.03-09.09.56:623][624]LogSavePackage: Moving '../../../../../../Users/ruben/OneDrive/Documents/GitHub/Group_5/Robot_Survival/Saved/Metal_0012A70A21F4CB5D5780536C3AEC450EEFA.tmp' to '../../../../../../Users/ruben/OneDrive/Documents/GitHub/Group_5/Robot_Survival/Content/_MyContent/Models/Metal_001.uasset'
+[2021.11.03-09.09.56:627][624]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/_MyContent/Models/Scrappy" FILE="../../../../../../Users/ruben/OneDrive/Documents/GitHub/Group_5/Robot_Survival/Content/_MyContent/Models/Scrappy.uasset" SILENT=true
+[2021.11.03-09.09.56:690][624]LogSavePackage: Moving '../../../../../../Users/ruben/OneDrive/Documents/GitHub/Group_5/Robot_Survival/Saved/Scrappy4B45544A4100C1D9F4A778B1140BE529.tmp' to '../../../../../../Users/ruben/OneDrive/Documents/GitHub/Group_5/Robot_Survival/Content/_MyContent/Models/Scrappy.uasset'
+[2021.11.03-09.09.56:710][624]LogSavePackage: Moving '../../../../../../Users/ruben/OneDrive/Documents/GitHub/Group_5/Robot_Survival/Saved/Melee_Enemy27ADDC3840998FBE5F51569B5B14D061.tmp' to '../../../../../../Users/ruben/OneDrive/Documents/GitHub/Group_5/Robot_Survival/Content/FirstPersonBP/Blueprints/Melee_Enemy.uasset'
+[2021.11.03-09.09.56:749][624]AssetCheck: New page: Asset Save: multiple assets
+[2021.11.03-09.09.56:749][624]LogContentValidation: Display: Validating Material /Game/_MyContent/Models/Metal.Metal
+[2021.11.03-09.09.56:749][624]LogContentValidation: Display: Validating Material /Game/_MyContent/Models/Metal_001.Metal_001
+[2021.11.03-09.09.56:749][624]LogContentValidation: Display: Validating StaticMesh /Game/_MyContent/Models/Scrappy.Scrappy
+[2021.11.03-09.09.56:749][624]LogContentValidation: Display: Validating Blueprint /Game/FirstPersonBP/Blueprints/Melee_Enemy.Melee_Enemy
+[2021.11.03-09.10.04:958][ 64]LogTemp: Repeating last play command: Selected Viewport
+[2021.11.03-09.10.04:969][ 64]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.11.03-09.10.04:969][ 64]PIE: New page: PIE session: FirstPersonExampleMap (4 Nov 2021, 7:10:04 am)
+[2021.11.03-09.10.05:025][ 64]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2021.11.03-09.10.05:037][ 64]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011840s)
+[2021.11.03-09.10.05:039][ 64]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2021.11.03-09.10.05:039][ 64]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000002153D840600), frame # 264064
+[2021.11.03-09.10.05:039][ 64]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (00000216258C8540), frame # 264064
+[2021.11.03-09.10.05:039][ 64]LogPlayLevel: PIE: World Init took: (0.002019s)
+[2021.11.03-09.10.05:039][ 64]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.014193s)
+[2021.11.03-09.10.05:083][ 64]LogUObjectHash: Compacting FUObjectHashTables data took   2.14ms
+[2021.11.03-09.10.05:091][ 64]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.11.03-09.10.05:091][ 64]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.11.03-09.10.05:091][ 64]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.11.03-09.10.05:091][ 64]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.11.03-09.10.05:091][ 64]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.11.03-09.10.05:091][ 64]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.11.03-09.10.05:091][ 64]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.11.03-09.10.05:091][ 64]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.11.03-09.10.05:092][ 64]LogAudio: Display: Using built-in audio occlusion.
+[2021.11.03-09.10.05:092][ 64]LogAudioMixer: Display: Initializing audio mixer.
+[2021.11.03-09.10.05:103][ 64]LogAudioMixer: Display: 0: FrontLeft
+[2021.11.03-09.10.05:103][ 64]LogAudioMixer: Display: 1: FrontRight
+[2021.11.03-09.10.05:144][ 64]LogAudioMixer: Display: Using Audio Device Speakers (Realtek High Definition Audio)
+[2021.11.03-09.10.05:145][ 64]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.11.03-09.10.05:145][ 64]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.11.03-09.10.05:145][ 64]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.11.03-09.10.05:145][ 64]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.11.03-09.10.05:160][ 64]LogInit: FAudioDevice initialized.
+[2021.11.03-09.10.05:167][ 64]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2021.11.03-09.10.05:170][ 64]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2021.11.03-20.10.05
+[2021.11.03-09.10.05:170][ 64]LogWorld: Bringing up level for play took: 0.002254
+[2021.11.03-09.10.05:171][ 64]LogOnline: OSS: Creating online subsystem instance for: :Context_48
+[2021.11.03-09.10.05:173][ 64]PIE: Server logged in
+[2021.11.03-09.10.05:173][ 64]PIE: Play in editor total start time 0.206 seconds.
+[2021.11.03-09.10.09:333][560]LogBlueprintUserMessages: [Melee_Enemy5_11] Attack
+[2021.11.03-09.10.09:525][583]LogBlueprintUserMessages: [Melee_Enemy5_11] Attack
+[2021.11.03-09.10.09:684][602]LogBlueprintUserMessages: [Melee_Enemy5_11] Attack
+[2021.11.03-09.10.09:701][604]LogBlueprintUserMessages: [Melee_Enemy5_11] Attack
+[2021.11.03-09.10.11:341][800]LogBlueprintUserMessages: [Melee_Enemy5_11] Attack
+[2021.11.03-09.10.11:358][802]LogBlueprintUserMessages: [Melee_Enemy5_11] Attack
+[2021.11.03-09.10.11:400][807]LogBlueprintUserMessages: [Melee_Enemy5_11] Attack
+[2021.11.03-09.10.11:985][877]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=930.422 Y=1371.152 Z=268.287] for [FirstPersonProjectile_C]
+[2021.11.03-09.10.12:067][887]LogBlueprintUserMessages: [Melee_Enemy5_11] Attack
+[2021.11.03-09.10.13:418][ 49]LogBlueprintUserMessages: [Melee_Enemy5_11] Attack
+[2021.11.03-09.10.13:418][ 49]LogBlueprintUserMessages: [Melee_Enemy5_11] Attack
+[2021.11.03-09.10.13:442][ 52]LogBlueprintUserMessages: [Melee_Enemy5_11] Attack
+[2021.11.03-09.10.15:117][253]LogBlueprintUserMessages: [Melee_Enemy5_11] Attack
+[2021.11.03-09.10.15:117][253]LogBlueprintUserMessages: [Melee_Enemy5_11] Attack
+[2021.11.03-09.10.15:125][254]LogBlueprintUserMessages: [Melee_Enemy5_11] Attack
+[2021.11.03-09.10.15:492][298]LogBlueprintUserMessages: [Melee_Enemy5_11] Attack
+[2021.11.03-09.10.16:725][442]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.11.03-09.10.16:725][442]LogWorld: BeginTearingDown for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2021.11.03-09.10.16:725][442]LogWorld: UWorld::CleanupWorld for FirstPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2021.11.03-09.10.16:725][442]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.11.03-09.10.16:738][442]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.11.03-09.10.16:743][442]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.11.03-09.10.16:766][442]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.11.03-09.10.16:787][442]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (00000216258C8540), frame # 265442
+[2021.11.03-09.10.16:788][442]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000002153D840600), frame # 265442
+[2021.11.03-09.10.16:790][442]LogUObjectHash: Compacting FUObjectHashTables data took   2.04ms
+[2021.11.03-09.10.16:876][443]LogPlayLevel: Display: Destroying online subsystem :Context_48
+[2021.11.03-09.11.00:109][ 41]BlueprintLog: New page: Compile Melee_Enemy
+[2021.11.03-09.11.00:155][ 41]LogUObjectHash: Compacting FUObjectHashTables data took   2.97ms
+[2021.11.03-09.11.06:285][701]LogEditorTransaction: Undo Move Node
+[2021.11.03-09.11.06:548][708]LogEditorTransaction: Undo Move Node
+[2021.11.03-09.11.06:938][731]LogEditorTransaction: Undo Move Node
+[2021.11.03-09.11.07:951][827]LogSavePackage: Moving '../../../../../../Users/ruben/OneDrive/Documents/GitHub/Group_5/Robot_Survival/Saved/Melee_Enemy3A525E2144533A43C255A4B0A35A76B4.tmp' to '../../../../../../Users/ruben/OneDrive/Documents/GitHub/Group_5/Robot_Survival/Content/FirstPersonBP/Blueprints/Melee_Enemy.uasset'
+[2021.11.03-09.11.07:965][827]AssetCheck: New page: Asset Save: Melee_Enemy
+[2021.11.03-09.11.07:965][827]LogContentValidation: Display: Validating Blueprint /Game/FirstPersonBP/Blueprints/Melee_Enemy.Melee_Enemy
+[2021.11.03-09.12.22:807][270]LogSavePackage: Moving '../../../../../../Users/ruben/OneDrive/Documents/GitHub/Group_5/Robot_Survival/Saved/Melee_Enemy8220756F463CB1C6E92B00B23874F76A.tmp' to '../../../../../../Users/ruben/OneDrive/Documents/GitHub/Group_5/Robot_Survival/Content/FirstPersonBP/Blueprints/Melee_Enemy.uasset'
+[2021.11.03-09.12.22:822][270]AssetCheck: New page: Asset Save: Melee_Enemy
+[2021.11.03-09.12.22:823][270]LogContentValidation: Display: Validating Blueprint /Game/FirstPersonBP/Blueprints/Melee_Enemy.Melee_Enemy
+[2021.11.03-09.13.24:071][918]LogSavePackage: Moving '../../../../../../Users/ruben/OneDrive/Documents/GitHub/Group_5/Robot_Survival/Saved/Melee_EnemyF4A07DBC4E1510639096BD9A70A0EEFD.tmp' to '../../../../../../Users/ruben/OneDrive/Documents/GitHub/Group_5/Robot_Survival/Content/FirstPersonBP/Blueprints/Melee_Enemy.uasset'
+[2021.11.03-09.13.24:087][918]AssetCheck: New page: Asset Save: Melee_Enemy
+[2021.11.03-09.13.24:087][918]LogContentValidation: Display: Validating Blueprint /Game/FirstPersonBP/Blueprints/Melee_Enemy.Melee_Enemy
+[2021.11.03-09.13.55:869][ 48]BlueprintLog: New page: Compile Melee_Enemy
+[2021.11.03-09.13.55:888][ 48]LogBlueprint: Error: [Compiler Melee_Enemy] The type of  Object  is undetermined.  Connect something to  Cast To FirstPersonCharacter  to imply a specific type.
+[2021.11.03-09.13.55:889][ 48]LogBlueprint: Error: [Compiler Melee_Enemy] The current value of the ' Object ' pin is invalid: Unsupported type Wildcard on pin Object
+[2021.11.03-09.13.55:957][ 48]LogUObjectHash: Compacting FUObjectHashTables data took   6.80ms
+[2021.11.03-09.14.02:086][659]BlueprintLog: New page: Compile Melee_Enemy
+[2021.11.03-09.14.02:135][659]LogUObjectHash: Compacting FUObjectHashTables data took   4.24ms
+[2021.11.03-09.16.51:326][188]LogSavePackage: Moving '../../../../../../Users/ruben/OneDrive/Documents/GitHub/Group_5/Robot_Survival/Saved/Melee_EnemyF14A4F284D2D689F3FACD4B54902287D.tmp' to '../../../../../../Users/ruben/OneDrive/Documents/GitHub/Group_5/Robot_Survival/Content/FirstPersonBP/Blueprints/Melee_Enemy.uasset'
+[2021.11.03-09.16.51:344][188]AssetCheck: New page: Asset Save: Melee_Enemy
+[2021.11.03-09.16.51:345][188]LogContentValidation: Display: Validating Blueprint /Game/FirstPersonBP/Blueprints/Melee_Enemy.Melee_Enemy
+[2021.11.03-09.16.52:667][329]BlueprintLog: New page: Compile Melee_Enemy
+[2021.11.03-09.16.52:715][329]LogUObjectHash: Compacting FUObjectHashTables data took   3.58ms
+[2021.11.03-09.17.12:308][267]BlueprintLog: New page: Compile Melee_Enemy
+[2021.11.03-09.17.12:362][267]LogUObjectHash: Compacting FUObjectHashTables data took   3.04ms
+[2021.11.03-09.17.53:160][  5]BlueprintLog: New page: Compile Melee_Enemy
+[2021.11.03-09.17.53:211][  5]LogUObjectHash: Compacting FUObjectHashTables data took   4.44ms
+[2021.11.03-09.17.54:846][162]LogTemp: Repeating last play command: Selected Viewport
+[2021.11.03-09.17.54:856][162]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.11.03-09.17.54:856][162]PIE: New page: PIE session: FirstPersonExampleMap (4 Nov 2021, 7:17:54 am)
+[2021.11.03-09.17.54:884][162]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2021.11.03-09.17.54:899][162]LogPlayLevel: PIE: StaticDuplicateObject took: (0.014958s)
+[2021.11.03-09.17.54:901][162]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2021.11.03-09.17.54:901][162]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000021555094600), frame # 304162
+[2021.11.03-09.17.54:901][162]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000021541965300), frame # 304162
+[2021.11.03-09.17.54:901][162]LogPlayLevel: PIE: World Init took: (0.001626s)
+[2021.11.03-09.17.54:901][162]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.016859s)
+[2021.11.03-09.17.54:935][162]LogUObjectHash: Compacting FUObjectHashTables data took   3.22ms
+[2021.11.03-09.17.54:937][162]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.11.03-09.17.54:937][162]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.11.03-09.17.54:937][162]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.11.03-09.17.54:937][162]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.11.03-09.17.54:937][162]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.11.03-09.17.54:937][162]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.11.03-09.17.54:937][162]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.11.03-09.17.54:937][162]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.11.03-09.17.54:937][162]LogAudio: Display: Using built-in audio occlusion.
+[2021.11.03-09.17.54:937][162]LogAudioMixer: Display: Initializing audio mixer.
+[2021.11.03-09.17.54:946][162]LogAudioMixer: Display: 0: FrontLeft
+[2021.11.03-09.17.54:946][162]LogAudioMixer: Display: 1: FrontRight
+[2021.11.03-09.17.54:975][162]LogAudioMixer: Display: Using Audio Device Speakers (Realtek High Definition Audio)
+[2021.11.03-09.17.54:976][162]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.11.03-09.17.54:976][162]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.11.03-09.17.54:976][162]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.11.03-09.17.54:976][162]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.11.03-09.17.54:977][162]LogInit: FAudioDevice initialized.
+[2021.11.03-09.17.54:997][162]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2021.11.03-09.17.54:999][162]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2021.11.03-20.17.54
+[2021.11.03-09.17.54:999][162]LogWorld: Bringing up level for play took: 0.002099
+[2021.11.03-09.17.55:000][162]LogOnline: OSS: Creating online subsystem instance for: :Context_49
+[2021.11.03-09.17.55:002][162]PIE: Server logged in
+[2021.11.03-09.17.55:003][162]PIE: Play in editor total start time 0.147 seconds.
+[2021.11.03-09.17.58:439][565]LogBlueprintUserMessages: [Melee_Enemy5_11] Hit
+[2021.11.03-09.17.59:039][637]LogBlueprintUserMessages: [Melee_Enemy5_11] Miss
+[2021.11.03-09.18.00:481][809]LogBlueprintUserMessages: [Melee_Enemy5_11] Miss
+[2021.11.03-09.18.03:932][223]LogBlueprintUserMessages: [Melee_Enemy5_11] Miss
+[2021.11.03-09.18.07:275][624]LogBlueprintUserMessages: [Melee_Enemy5_11] Miss
+[2021.11.03-09.18.09:208][856]LogBlueprintUserMessages: [Melee_Enemy5_11] Miss
+[2021.11.03-09.18.11:397][116]LogBlueprintUserMessages: [Melee_Enemy5_11] Hit
+[2021.11.03-09.18.12:730][276]LogBlueprintUserMessages: [Melee_Enemy5_11] Miss
+[2021.11.03-09.18.16:323][707]LogBlueprintUserMessages: [Melee_Enemy5_11] Hit
+[2021.11.03-09.18.25:702][832]LogBlueprintUserMessages: [Melee_Enemy5_11] Miss
+[2021.11.03-09.18.27:918][ 98]LogBlueprintUserMessages: [Melee_Enemy5_11] Miss
+[2021.11.03-09.18.29:154][243]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.11.03-09.18.29:155][243]LogWorld: BeginTearingDown for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2021.11.03-09.18.29:155][243]LogWorld: UWorld::CleanupWorld for FirstPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2021.11.03-09.18.29:155][243]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.11.03-09.18.29:177][243]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.11.03-09.18.29:183][243]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.11.03-09.18.29:225][243]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.11.03-09.18.29:227][243]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000021541965300), frame # 308243
+[2021.11.03-09.18.29:227][243]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000021555094600), frame # 308243
+[2021.11.03-09.18.29:230][243]LogUObjectHash: Compacting FUObjectHashTables data took   2.25ms
+[2021.11.03-09.18.29:258][244]LogPlayLevel: Display: Destroying online subsystem :Context_49
+[2021.11.03-09.18.41:790][495]BlueprintLog: New page: Compile Melee_Enemy
+[2021.11.03-09.18.41:843][495]LogUObjectHash: Compacting FUObjectHashTables data took   3.31ms
+[2021.11.03-09.18.47:980][131]LogTemp: Repeating last play command: Selected Viewport
+[2021.11.03-09.18.47:995][131]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.11.03-09.18.47:995][131]PIE: New page: PIE session: FirstPersonExampleMap (4 Nov 2021, 7:18:47 am)
+[2021.11.03-09.18.48:023][131]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2021.11.03-09.18.48:036][131]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012715s)
+[2021.11.03-09.18.48:037][131]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2021.11.03-09.18.48:037][131]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (00000215E76FEA00), frame # 310131
+[2021.11.03-09.18.48:037][131]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000002162ABD4900), frame # 310131
+[2021.11.03-09.18.48:038][131]LogPlayLevel: PIE: World Init took: (0.001903s)
+[2021.11.03-09.18.48:038][131]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.014849s)
+[2021.11.03-09.18.48:071][131]LogUObjectHash: Compacting FUObjectHashTables data took   3.30ms
+[2021.11.03-09.18.48:074][131]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.11.03-09.18.48:074][131]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.11.03-09.18.48:074][131]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.11.03-09.18.48:074][131]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.11.03-09.18.48:074][131]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.11.03-09.18.48:074][131]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.11.03-09.18.48:074][131]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.11.03-09.18.48:074][131]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.11.03-09.18.48:075][131]LogAudio: Display: Using built-in audio occlusion.
+[2021.11.03-09.18.48:075][131]LogAudioMixer: Display: Initializing audio mixer.
+[2021.11.03-09.18.48:081][131]LogAudioMixer: Display: 0: FrontLeft
+[2021.11.03-09.18.48:081][131]LogAudioMixer: Display: 1: FrontRight
+[2021.11.03-09.18.48:111][131]LogAudioMixer: Display: Using Audio Device Speakers (Realtek High Definition Audio)
+[2021.11.03-09.18.48:111][131]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.11.03-09.18.48:111][131]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.11.03-09.18.48:111][131]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.11.03-09.18.48:111][131]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.11.03-09.18.48:127][131]LogInit: FAudioDevice initialized.
+[2021.11.03-09.18.48:137][131]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2021.11.03-09.18.48:140][131]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2021.11.03-20.18.48
+[2021.11.03-09.18.48:141][131]LogWorld: Bringing up level for play took: 0.002090
+[2021.11.03-09.18.48:141][131]LogOnline: OSS: Creating online subsystem instance for: :Context_50
+[2021.11.03-09.18.48:144][131]PIE: Server logged in
+[2021.11.03-09.18.48:145][131]PIE: Play in editor total start time 0.151 seconds.
+[2021.11.03-09.18.50:917][460]LogBlueprintUserMessages: [Melee_Enemy5_11] Start Attack
+[2021.11.03-09.18.51:416][516]LogBlueprintUserMessages: [Melee_Enemy5_11] Miss
+[2021.11.03-09.18.52:908][695]LogBlueprintUserMessages: [Melee_Enemy5_11] Start Attack
+[2021.11.03-09.18.53:208][731]LogBlueprintUserMessages: [Melee_Enemy5_11] Start Attack
+[2021.11.03-09.18.53:399][754]LogBlueprintUserMessages: [Melee_Enemy5_11] Miss
+[2021.11.03-09.18.56:900][174]LogBlueprintUserMessages: [Melee_Enemy5_11] Start Attack
+[2021.11.03-09.18.57:175][207]LogBlueprintUserMessages: [Melee_Enemy5_11] Start Attack
+[2021.11.03-09.18.57:200][210]LogBlueprintUserMessages: [Melee_Enemy5_11] Start Attack
+[2021.11.03-09.18.57:208][211]LogBlueprintUserMessages: [Melee_Enemy5_11] Start Attack
+[2021.11.03-09.18.57:392][233]LogBlueprintUserMessages: [Melee_Enemy5_11] Miss
+[2021.11.03-09.18.59:267][458]LogBlueprintUserMessages: [Melee_Enemy5_11] Start Attack
+[2021.11.03-09.18.59:759][517]LogBlueprintUserMessages: [Melee_Enemy5_11] Hit
+[2021.11.03-09.19.02:518][848]LogBlueprintUserMessages: [Melee_Enemy5_11] Start Attack
+[2021.11.03-09.19.03:010][907]LogBlueprintUserMessages: [Melee_Enemy5_11] Hit
+[2021.11.03-09.19.03:335][946]LogBlueprintUserMessages: [Melee_Enemy5_11] Start Attack
+[2021.11.03-09.19.03:360][949]LogBlueprintUserMessages: [Melee_Enemy5_11] Start Attack
+[2021.11.03-09.19.03:442][959]LogBlueprintUserMessages: [Melee_Enemy5_11] Start Attack
+[2021.11.03-09.19.03:826][  5]LogBlueprintUserMessages: [Melee_Enemy5_11] Miss
+[2021.11.03-09.19.06:664][342]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.11.03-09.19.06:664][342]LogWorld: BeginTearingDown for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2021.11.03-09.19.06:664][342]LogWorld: UWorld::CleanupWorld for FirstPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2021.11.03-09.19.06:664][342]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.11.03-09.19.06:681][342]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.11.03-09.19.06:686][342]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.11.03-09.19.06:728][342]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.11.03-09.19.06:729][342]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000002162ABD4900), frame # 312342
+[2021.11.03-09.19.06:729][342]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (00000215E76FEA00), frame # 312342
+[2021.11.03-09.19.06:732][342]LogUObjectHash: Compacting FUObjectHashTables data took   2.07ms
+[2021.11.03-09.19.06:758][343]LogPlayLevel: Display: Destroying online subsystem :Context_50
+[2021.11.03-09.20.56:842][348]LogUObjectHash: Compacting FUObjectHashTables data took   3.39ms
+[2021.11.03-09.20.56:920][348]LogSavePackage: Moving '../../../../../../Users/ruben/OneDrive/Documents/GitHub/Group_5/Robot_Survival/Saved/FirstPersonExampleMap_Auto7E054E8B748964046E7C2C8B3F3B9040C.tmp' to '../../../../../../Users/ruben/OneDrive/Documents/GitHub/Group_5/Robot_Survival/Saved/Autosaves/Game/FirstPersonBP/Maps/FirstPersonExampleMap_Auto7.umap'
+[2021.11.03-09.20.56:921][348]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FirstPersonBP/Maps/FirstPersonExampleMap' took 0.114
+[2021.11.03-09.20.56:922][348]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.114
+[2021.11.03-09.20.56:922][348]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/FirstPersonBP/Blueprints/Melee_Enemy] ([1] browsable assets)...
+[2021.11.03-09.20.56:948][348]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/FirstPersonBP/Blueprints/Melee_Enemy.Melee_Enemy]
+[2021.11.03-09.20.56:948][348]OBJ SavePackage: Finished generating thumbnails for package [/Game/FirstPersonBP/Blueprints/Melee_Enemy]
+[2021.11.03-09.20.56:977][348]LogSavePackage: Moving '../../../../../../Users/ruben/OneDrive/Documents/GitHub/Group_5/Robot_Survival/Saved/Melee_Enemy_Auto7B4FB2D474C1F91CED128498196E16CA5.tmp' to '../../../../../../Users/ruben/OneDrive/Documents/GitHub/Group_5/Robot_Survival/Saved/Autosaves/Game/FirstPersonBP/Blueprints/Melee_Enemy_Auto7.uasset'
+[2021.11.03-09.20.56:978][348]LogFileHelpers: Auto-saving content packages took 0.056
+[2021.11.03-10.46.32:040][988]LogUObjectHash: Compacting FUObjectHashTables data took   7.19ms
+[2021.11.03-10.46.33:490][988]LogSlate: Window 'Save Content' being destroyed
+[2021.11.03-10.46.33:558][988]LogSavePackage: Moving '../../../../../../Users/ruben/OneDrive/Documents/GitHub/Group_5/Robot_Survival/Saved/Melee_Enemy39EFC9AC4C8B3A19778692AEEF0B7C7A.tmp' to '../../../../../../Users/ruben/OneDrive/Documents/GitHub/Group_5/Robot_Survival/Content/FirstPersonBP/Blueprints/Melee_Enemy.uasset'
+[2021.11.03-10.46.33:588][988]LogUObjectHash: Compacting FUObjectHashTables data took   0.66ms
+[2021.11.03-10.46.33:641][988]LogSavePackage: Moving '../../../../../../Users/ruben/OneDrive/Documents/GitHub/Group_5/Robot_Survival/Saved/FirstPersonExampleMap5E502A2D4515B02EFC210F9F2710797B.tmp' to '../../../../../../Users/ruben/OneDrive/Documents/GitHub/Group_5/Robot_Survival/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap'
+[2021.11.03-10.46.33:690][988]LogFileHelpers: Saving map 'FirstPersonExampleMap' took 0.129
+[2021.11.03-10.46.34:532][988]LogSavePackage: Moving '../../../../../../Users/ruben/OneDrive/Documents/GitHub/Group_5/Robot_Survival/Saved/FirstPersonExampleMap_BuiltData84C893C143E69765C0C5D1ADD57E932C.tmp' to '../../../../../../Users/ruben/OneDrive/Documents/GitHub/Group_5/Robot_Survival/Content/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData.uasset'
+[2021.11.03-10.46.34:569][988]AssetCheck: New page: Asset Save: multiple assets
+[2021.11.03-10.46.34:569][988]LogContentValidation: Display: Validating Blueprint /Game/FirstPersonBP/Blueprints/Melee_Enemy.Melee_Enemy
+[2021.11.03-10.46.34:569][988]LogContentValidation: Display: Validating World /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap
+[2021.11.03-10.46.34:569][988]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData.FirstPersonExampleMap_BuiltData
+[2021.11.03-10.46.35:596][108]LogTemp: Repeating last play command: Selected Viewport
+[2021.11.03-10.46.35:609][108]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.11.03-10.46.35:609][108]PIE: New page: PIE session: FirstPersonExampleMap (4 Nov 2021, 8:46:35 am)
+[2021.11.03-10.46.35:610][108]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2021.11.03-10.46.35:631][108]LogPlayLevel: PIE: StaticDuplicateObject took: (0.020060s)
+[2021.11.03-10.46.35:633][108]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2021.11.03-10.46.35:634][108]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000002161A8AEC00), frame # 330108
+[2021.11.03-10.46.35:634][108]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000021591ECDF80), frame # 330108
+[2021.11.03-10.46.35:635][108]LogPlayLevel: PIE: World Init took: (0.004072s)
+[2021.11.03-10.46.35:635][108]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.024548s)
+[2021.11.03-10.46.35:677][108]LogUObjectHash: Compacting FUObjectHashTables data took   7.03ms
+[2021.11.03-10.46.35:680][108]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.11.03-10.46.35:680][108]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.11.03-10.46.35:681][108]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.11.03-10.46.35:681][108]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.11.03-10.46.35:681][108]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.11.03-10.46.35:681][108]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.11.03-10.46.35:681][108]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.11.03-10.46.35:681][108]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.11.03-10.46.35:681][108]LogAudio: Display: Using built-in audio occlusion.
+[2021.11.03-10.46.35:681][108]LogAudioMixer: Display: Initializing audio mixer.
+[2021.11.03-10.46.35:689][108]LogAudioMixer: Display: 0: FrontLeft
+[2021.11.03-10.46.35:689][108]LogAudioMixer: Display: 1: FrontRight
+[2021.11.03-10.46.35:718][108]LogAudioMixer: Display: Using Audio Device Speakers (Realtek High Definition Audio)
+[2021.11.03-10.46.35:721][108]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.11.03-10.46.35:721][108]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.11.03-10.46.35:721][108]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.11.03-10.46.35:723][108]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.11.03-10.46.36:054][108]LogInit: FAudioDevice initialized.
+[2021.11.03-10.46.36:074][108]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2021.11.03-10.46.36:079][108]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2021.11.03-21.46.36
+[2021.11.03-10.46.36:080][108]LogWorld: Bringing up level for play took: 0.004475
+[2021.11.03-10.46.36:080][108]LogOnline: OSS: Creating online subsystem instance for: :Context_51
+[2021.11.03-10.46.36:188][108]PIE: Server logged in
+[2021.11.03-10.46.36:189][108]PIE: Play in editor total start time 0.582 seconds.
+[2021.11.03-10.46.45:828][233]LogBlueprintUserMessages: [Melee_Enemy5_11] Start Attack
+[2021.11.03-10.46.46:303][290]LogBlueprintUserMessages: [Melee_Enemy5_11] Start Attack
+[2021.11.03-10.46.46:320][292]LogBlueprintUserMessages: [Melee_Enemy5_11] Miss
+[2021.11.03-10.46.47:429][425]LogBlueprintUserMessages: [Melee_Enemy5_11] Start Attack
+[2021.11.03-10.46.47:629][449]LogBlueprintUserMessages: [Melee_Enemy5_11] Start Attack
+[2021.11.03-10.46.47:645][451]LogBlueprintUserMessages: [Melee_Enemy5_11] Start Attack
+[2021.11.03-10.46.47:921][484]LogBlueprintUserMessages: [Melee_Enemy5_11] Miss
+[2021.11.03-10.46.49:063][621]LogBlueprintUserMessages: [Melee_Enemy5_11] Start Attack
+[2021.11.03-10.46.49:071][622]LogBlueprintUserMessages: [Melee_Enemy5_11] Start Attack
+[2021.11.03-10.46.49:221][640]LogBlueprintUserMessages: [Melee_Enemy5_11] Start Attack
+[2021.11.03-10.46.49:555][680]LogBlueprintUserMessages: [Melee_Enemy5_11] Miss
+[2021.11.03-10.46.50:513][795]LogBlueprintUserMessages: [Melee_Enemy5_11] Start Attack
+[2021.11.03-10.46.51:005][854]LogBlueprintUserMessages: [Melee_Enemy5_11] Miss
+[2021.11.03-10.46.51:838][954]LogBlueprintUserMessages: [Melee_Enemy5_11] Start Attack
+[2021.11.03-10.46.52:322][ 12]LogBlueprintUserMessages: [Melee_Enemy5_11] Start Attack
+[2021.11.03-10.46.52:331][ 13]LogBlueprintUserMessages: [Melee_Enemy5_11] Miss
+[2021.11.03-10.46.53:205][118]LogBlueprintUserMessages: [Melee_Enemy5_11] Start Attack
+[2021.11.03-10.46.53:698][177]LogBlueprintUserMessages: [Melee_Enemy5_11] Hit
+[2021.11.03-10.46.56:961][568]LogBlueprintUserMessages: [Melee_Enemy5_11] Start Attack
+[2021.11.03-10.46.57:453][627]LogBlueprintUserMessages: [Melee_Enemy5_11] Miss
+[2021.11.03-10.46.57:877][678]LogBlueprintUserMessages: [Melee_Enemy5_11] Start Attack
+[2021.11.03-10.46.58:069][701]LogBlueprintUserMessages: [Melee_Enemy5_11] Start Attack
+[2021.11.03-10.46.58:369][737]LogBlueprintUserMessages: [Melee_Enemy5_11] Miss
+[2021.11.03-10.46.59:238][833]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.11.03-10.46.59:238][833]LogWorld: BeginTearingDown for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2021.11.03-10.46.59:238][833]LogWorld: UWorld::CleanupWorld for FirstPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2021.11.03-10.46.59:238][833]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.11.03-10.46.59:278][833]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.11.03-10.46.59:282][833]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.11.03-10.46.59:325][833]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.11.03-10.46.59:326][833]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000021591ECDF80), frame # 332833
+[2021.11.03-10.46.59:326][833]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000002161A8AEC00), frame # 332833
+[2021.11.03-10.46.59:329][833]LogUObjectHash: Compacting FUObjectHashTables data took   2.10ms
+[2021.11.03-10.46.59:361][834]LogPlayLevel: Display: Destroying online subsystem :Context_51
+[2021.11.03-10.47.00:095][913]LogUObjectHash: Compacting FUObjectHashTables data took   2.56ms
+[2021.11.03-10.47.00:124][913]LogSavePackage: Moving '../../../../../../Users/ruben/OneDrive/Documents/GitHub/Group_5/Robot_Survival/Saved/FirstPersonExampleMap9D808B7A4B39FBF7223EA8B256B38B1B.tmp' to '../../../../../../Users/ruben/OneDrive/Documents/GitHub/Group_5/Robot_Survival/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap'
+[2021.11.03-10.47.00:889][913]LogSavePackage: Moving '../../../../../../Users/ruben/OneDrive/Documents/GitHub/Group_5/Robot_Survival/Saved/FirstPersonExampleMap_BuiltData120E50F54EB2879A51784297E9C75F32.tmp' to '../../../../../../Users/ruben/OneDrive/Documents/GitHub/Group_5/Robot_Survival/Content/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData.uasset'
+[2021.11.03-10.47.00:955][913]AssetCheck: New page: Asset Save: multiple assets
+[2021.11.03-10.47.00:955][913]LogContentValidation: Display: Validating World /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap
+[2021.11.03-10.47.00:955][913]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData.FirstPersonExampleMap_BuiltData
+[2021.11.03-10.47.34:582][ 20]LogUObjectHash: Compacting FUObjectHashTables data took   0.59ms
+[2021.11.03-10.47.34:669][ 20]LogSlate: Window 'Melee_Enemy' being destroyed
+[2021.11.03-10.47.35:916][ 20]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2021.11.03-10.47.35:916][ 20]LogWorld: UWorld::CleanupWorld for World_4, bSessionEnded=true, bCleanupResources=true
+[2021.11.03-10.47.35:916][ 20]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.11.03-10.47.42:158][ 20]LogSlate: Window 'Robot_Survival - Unreal Editor' being destroyed
+[2021.11.03-10.47.43:764][ 21]Cmd: QUIT_EDITOR
+[2021.11.03-10.47.43:764][ 21]LogCore: Engine exit requested (reason: UUnrealEdEngine::CloseEditor())
+[2021.11.03-10.47.43:779][ 21]LogCore: Engine exit requested (reason: EngineExit() was called; note: exit was already requested)
+[2021.11.03-10.47.44:584][ 21]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2021.11.03-10.47.44:787][ 21]LogExit: Preparing to exit.
+[2021.11.03-10.47.45:999][ 21]LogWorld: UWorld::CleanupWorld for World_0, bSessionEnded=true, bCleanupResources=true
+[2021.11.03-10.47.46:001][ 21]LogWorld: UWorld::CleanupWorld for World_1, bSessionEnded=true, bCleanupResources=true
+[2021.11.03-10.47.46:003][ 21]LogWorld: UWorld::CleanupWorld for World_2, bSessionEnded=true, bCleanupResources=true
+[2021.11.03-10.47.46:005][ 21]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2021.11.03-10.47.46:005][ 21]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2021.11.03-10.47.46:005][ 21]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2021.11.03-10.47.46:005][ 21]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2021.11.03-10.47.46:005][ 21]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2021.11.03-10.47.46:005][ 21]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2021.11.03-10.47.46:005][ 21]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2021.11.03-10.47.46:005][ 21]LogWorld: UWorld::CleanupWorld for None, bSessionEnded=true, bCleanupResources=true
+[2021.11.03-10.47.46:026][ 21]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2021.11.03-10.47.46:026][ 21]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2021.11.03-10.47.46:026][ 21]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2021.11.03-10.47.46:026][ 21]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2021.11.03-10.47.46:026][ 21]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2021.11.03-10.47.46:026][ 21]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2021.11.03-10.47.46:026][ 21]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2021.11.03-10.47.46:026][ 21]LogWorld: UWorld::CleanupWorld for None, bSessionEnded=true, bCleanupResources=true
+[2021.11.03-10.47.46:305][ 21]LogDemo: Cleaned up 0 splitscreen connections with owner deletion
+[2021.11.03-10.47.46:699][ 21]LogWorld: UWorld::CleanupWorld for None, bSessionEnded=true, bCleanupResources=true
+[2021.11.03-10.47.46:699][ 21]LogExit: Editor shut down
+[2021.11.03-10.47.46:835][ 21]LogExit: Transaction tracking system shut down
+[2021.11.03-10.47.48:118][ 21]LogAISub: UAISubsystem::~UAISubsystem AISubsystem (0000021524519BC0), frame # 333021
+[2021.11.03-10.47.48:118][ 21]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000002152446DE40), frame # 333021
+[2021.11.03-10.47.48:119][ 21]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (00000215244BDE00), frame # 333021
+[2021.11.03-10.47.49:384][ 21]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000021516AEEA00), frame # 333021
+[2021.11.03-10.47.49:384][ 21]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000021516B40F40), frame # 333021
+[2021.11.03-10.47.50:300][ 21]LogExit: Object subsystem successfully closed.
+[2021.11.03-10.47.50:403][ 21]LogShaderCompilers: Display: Shaders left to compile 0
+[2021.11.03-10.47.50:681][ 21]LogModuleManager: Shutting down and abandoning module StaticMeshEditor (798)
+[2021.11.03-10.47.50:681][ 21]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (796)
+[2021.11.03-10.47.50:700][ 21]LogModuleManager: Shutting down and abandoning module Voice (794)
+[2021.11.03-10.47.50:710][ 21]LogModuleManager: Shutting down and abandoning module BlueprintGraph (792)
+[2021.11.03-10.47.50:711][ 21]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (790)
+[2021.11.03-10.47.50:711][ 21]LogModuleManager: Shutting down and abandoning module SceneOutliner (788)
+[2021.11.03-10.47.50:711][ 21]LogModuleManager: Shutting down and abandoning module AddContentDialog (786)
+[2021.11.03-10.47.50:902][ 21]LogModuleManager: Shutting down and abandoning module WidgetCarousel (785)
+[2021.11.03-10.47.50:902][ 21]LogModuleManager: Shutting down and abandoning module EditorWidgets (782)
+[2021.11.03-10.47.50:902][ 21]LogModuleManager: Shutting down and abandoning module CollectionManager (780)
+[2021.11.03-10.47.50:902][ 21]LogModuleManager: Shutting down and abandoning module StatsViewer (778)
+[2021.11.03-10.47.50:902][ 21]LogModuleManager: Shutting down and abandoning module VirtualTexturingEditor (776)
+[2021.11.03-10.47.50:902][ 21]LogModuleManager: Shutting down and abandoning module FoliageEdit (774)
+[2021.11.03-10.47.50:903][ 21]LogModuleManager: Shutting down and abandoning module LandscapeEditor (772)
+[2021.11.03-10.47.50:903][ 21]LogModuleManager: Shutting down and abandoning module MeshPaintMode (770)
+[2021.11.03-10.47.50:903][ 21]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (768)
+[2021.11.03-10.47.50:903][ 21]LogModuleManager: Shutting down and abandoning module ActorPickerMode (766)
+[2021.11.03-10.47.50:903][ 21]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (764)
+[2021.11.03-10.47.50:903][ 21]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (762)
+[2021.11.03-10.47.50:903][ 21]LogModuleManager: Shutting down and abandoning module AutomationWorker (760)
+[2021.11.03-10.47.50:903][ 21]LogModuleManager: Shutting down and abandoning module SteamVREditor (758)
+[2021.11.03-10.47.50:903][ 21]LogModuleManager: Shutting down and abandoning module OculusMR (756)
+[2021.11.03-10.47.50:903][ 21]LogModuleManager: Shutting down and abandoning module GooglePADEditor (754)
+[2021.11.03-10.47.50:903][ 21]LogModuleManager: Shutting down and abandoning module AudioCaptureEditor (752)
+[2021.11.03-10.47.50:903][ 21]LogModuleManager: Shutting down and abandoning module TemplateSequenceEditor (750)
+[2021.11.03-10.47.50:920][ 21]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (748)
+[2021.11.03-10.47.50:920][ 21]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (746)
+[2021.11.03-10.47.50:920][ 21]LogModuleManager: Shutting down and abandoning module ActorSequenceEditor (744)
+[2021.11.03-10.47.50:920][ 21]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (742)
+[2021.11.03-10.47.50:920][ 21]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (740)
+[2021.11.03-10.47.50:920][ 21]LogModuleManager: Shutting down and abandoning module WebMMediaFactory (738)
+[2021.11.03-10.47.50:920][ 21]LogModuleManager: Shutting down and abandoning module WebMMediaEditor (736)
+[2021.11.03-10.47.50:920][ 21]LogModuleManager: Shutting down and abandoning module WebMMedia (734)
+[2021.11.03-10.47.50:920][ 21]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (732)
+[2021.11.03-10.47.50:920][ 21]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (730)
+[2021.11.03-10.47.50:920][ 21]LogModuleManager: Shutting down and abandoning module SequenceRecorder (729)
+[2021.11.03-10.47.50:920][ 21]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (726)
+[2021.11.03-10.47.50:920][ 21]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (724)
+[2021.11.03-10.47.50:920][ 21]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (722)
+[2021.11.03-10.47.50:920][ 21]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (720)
+[2021.11.03-10.47.50:920][ 21]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (718)
+[2021.11.03-10.47.50:920][ 21]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (716)
+[2021.11.03-10.47.50:920][ 21]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (714)
+[2021.11.03-10.47.50:920][ 21]LogModuleManager: Shutting down and abandoning module MagicLeapMediaCodecFactory (712)
+[2021.11.03-10.47.50:920][ 21]LogModuleManager: Shutting down and abandoning module MagicLeapMediaFactory (710)
+[2021.11.03-10.47.50:920][ 21]LogModuleManager: Shutting down and abandoning module MagicLeapMediaEditor (708)
+[2021.11.03-10.47.50:920][ 21]LogModuleManager: Shutting down and abandoning module PlanarCut (706)
+[2021.11.03-10.47.50:920][ 21]LogModuleManager: Shutting down and abandoning module CharacterAI (704)
+[2021.11.03-10.47.50:921][ 21]LogModuleManager: Shutting down and abandoning module TextureAlignMode (702)
+[2021.11.03-10.47.50:921][ 21]LogModuleManager: Shutting down and abandoning module BspMode (700)
+[2021.11.03-10.47.50:921][ 21]LogModuleManager: Shutting down and abandoning module PlacementMode (699)
+[2021.11.03-10.47.50:921][ 21]LogModuleManager: Shutting down and abandoning module GeometryMode (696)
+[2021.11.03-10.47.50:921][ 21]LogModuleManager: Shutting down and abandoning module CameraShakePreviewer (694)
+[2021.11.03-10.47.50:921][ 21]LogModuleManager: Shutting down and abandoning module SmartSnapping (692)
+[2021.11.03-10.47.50:921][ 21]LogModuleManager: Shutting down and abandoning module SessionServices (690)
+[2021.11.03-10.47.50:921][ 21]LogModuleManager: Shutting down and abandoning module MeshPaint (688)
+[2021.11.03-10.47.50:921][ 21]LogModuleManager: Shutting down and abandoning module ViewportSnapping (686)
+[2021.11.03-10.47.50:921][ 21]LogModuleManager: Shutting down and abandoning module ViewportInteraction (684)
+[2021.11.03-10.47.50:921][ 21]LogModuleManager: Shutting down and abandoning module ClothPainter (682)
+[2021.11.03-10.47.50:921][ 21]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (681)
+[2021.11.03-10.47.50:921][ 21]LogModuleManager: Shutting down and abandoning module LogVisualizer (678)
+[2021.11.03-10.47.50:921][ 21]LogModuleManager: Shutting down and abandoning module IntroTutorials (676)
+[2021.11.03-10.47.50:921][ 21]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (675)
+[2021.11.03-10.47.50:921][ 21]LogModuleManager: Shutting down and abandoning module LuminPlatformEditor (672)
+[2021.11.03-10.47.50:921][ 21]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (670)
+[2021.11.03-10.47.50:921][ 21]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (668)
+[2021.11.03-10.47.50:921][ 21]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (667)
+[2021.11.03-10.47.51:642][ 21]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (664)
+[2021.11.03-10.47.51:642][ 21]LogModuleManager: Shutting down and abandoning module LuminRuntimeSettings (662)
+[2021.11.03-10.47.51:642][ 21]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (660)
+[2021.11.03-10.47.51:642][ 21]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (658)
+[2021.11.03-10.47.51:642][ 21]LogModuleManager: Shutting down and abandoning module TraceInsights (656)
+[2021.11.03-10.47.51:643][ 21]LogModuleManager: Shutting down and abandoning module TraceServices (655)
+[2021.11.03-10.47.51:643][ 21]LogModuleManager: Shutting down and abandoning module EditorInteractiveToolsFramework (652)
+[2021.11.03-10.47.51:643][ 21]LogModuleManager: Shutting down and abandoning module TimeManagementEditor (650)
+[2021.11.03-10.47.51:643][ 21]LogModuleManager: Shutting down and abandoning module InputBindingEditor (648)
+[2021.11.03-10.47.51:643][ 21]LogModuleManager: Shutting down and abandoning module MergeActors (646)
+[2021.11.03-10.47.51:643][ 21]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (644)
+[2021.11.03-10.47.51:643][ 21]LogModuleManager: Shutting down and abandoning module LocalizationService (643)
+[2021.11.03-10.47.51:643][ 21]LogModuleManager: Shutting down and abandoning module HardwareTargeting (640)
+[2021.11.03-10.47.51:643][ 21]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (638)
+[2021.11.03-10.47.51:643][ 21]LogModuleManager: Shutting down and abandoning module UndoHistory (636)
+[2021.11.03-10.47.51:643][ 21]LogModuleManager: Shutting down and abandoning module XmlParser (634)
+[2021.11.03-10.47.51:643][ 21]LogModuleManager: Shutting down and abandoning module Blutility (632)
+[2021.11.03-10.47.51:643][ 21]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (630)
+[2021.11.03-10.47.51:643][ 21]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (629)
+[2021.11.03-10.47.51:644][ 21]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (626)
+[2021.11.03-10.47.51:644][ 21]LogModuleManager: Shutting down and abandoning module SettingsEditor (624)
+[2021.11.03-10.47.51:644][ 21]LogModuleManager: Shutting down and abandoning module ProjectLauncher (622)
+[2021.11.03-10.47.51:644][ 21]LogModuleManager: Shutting down and abandoning module SessionFrontend (620)
+[2021.11.03-10.47.51:644][ 21]LogModuleManager: Shutting down and abandoning module ProfilerClient (618)
+[2021.11.03-10.47.51:644][ 21]LogModuleManager: Shutting down and abandoning module DeviceManager (616)
+[2021.11.03-10.47.51:644][ 21]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (615)
+[2021.11.03-10.47.51:677][ 21]LogModuleManager: Shutting down and abandoning module AutomationController (612)
+[2021.11.03-10.47.51:677][ 21]LogModuleManager: Shutting down and abandoning module AutomationWindow (610)
+[2021.11.03-10.47.51:677][ 21]LogModuleManager: Shutting down and abandoning module Layers (608)
+[2021.11.03-10.47.51:677][ 21]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (606)
+[2021.11.03-10.47.51:677][ 21]LogModuleManager: Shutting down and abandoning module DetailCustomizations (604)
+[2021.11.03-10.47.51:677][ 21]LogModuleManager: Shutting down and abandoning module PackagesDialog (602)
+[2021.11.03-10.47.51:678][ 21]LogModuleManager: Shutting down and abandoning module AnimationBlueprintEditor (600)
+[2021.11.03-10.47.51:678][ 21]LogModuleManager: Shutting down and abandoning module Persona (598)
+[2021.11.03-10.47.51:678][ 21]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (597)
+[2021.11.03-10.47.51:678][ 21]LogModuleManager: Shutting down and abandoning module AnimGraph (595)
+[2021.11.03-10.47.51:678][ 21]LogModuleManager: Shutting down and abandoning module Kismet (592)
+[2021.11.03-10.47.51:783][ 21]LogModuleManager: Shutting down and abandoning module KismetWidgets (591)
+[2021.11.03-10.47.51:783][ 21]LogModuleManager: Shutting down and abandoning module GraphEditor (588)
+[2021.11.03-10.47.51:784][ 21]LogModuleManager: Shutting down and abandoning module StructViewer (586)
+[2021.11.03-10.47.51:784][ 21]LogModuleManager: Shutting down and abandoning module ClassViewer (584)
+[2021.11.03-10.47.51:784][ 21]LogModuleManager: Shutting down and abandoning module Toolbox (582)
+[2021.11.03-10.47.51:784][ 21]LogModuleManager: Shutting down and abandoning module ModuleUI (580)
+[2021.11.03-10.47.51:784][ 21]LogModuleManager: Shutting down and abandoning module OutputLog (578)
+[2021.11.03-10.47.51:801][ 21]LogModuleManager: Shutting down and abandoning module GammaUI (576)
+[2021.11.03-10.47.51:801][ 21]LogModuleManager: Shutting down and abandoning module Documentation (574)
+[2021.11.03-10.47.51:802][ 21]LogModuleManager: Shutting down and abandoning module LiveCoding (572)
+[2021.11.03-10.47.51:802][ 21]LogModuleManager: Shutting down and abandoning module LevelSequence (570)
+[2021.11.03-10.47.51:802][ 21]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (568)
+[2021.11.03-10.47.51:802][ 21]LogModuleManager: Shutting down and abandoning module MovieScene (566)
+[2021.11.03-10.47.51:802][ 21]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (564)
+[2021.11.03-10.47.51:802][ 21]LogModuleManager: Shutting down and abandoning module LauncherPlatform (562)
+[2021.11.03-10.47.51:802][ 21]LogModuleManager: Shutting down and abandoning module AnalyticsET (560)
+[2021.11.03-10.47.51:802][ 21]LogModuleManager: Shutting down and abandoning module PortalServices (558)
+[2021.11.03-10.47.51:802][ 21]LogModuleManager: Shutting down and abandoning module PortalRpc (556)
+[2021.11.03-10.47.51:802][ 21]LogModuleManager: Shutting down and abandoning module MessagingRpc (554)
+[2021.11.03-10.47.51:802][ 21]LogModuleManager: Shutting down and abandoning module AudioMixerXAudio2 (552)
+[2021.11.03-10.47.51:802][ 21]LogModuleManager: Shutting down and abandoning module AudioMixerCore (551)
+[2021.11.03-10.47.51:802][ 21]LogModuleManager: Shutting down and abandoning module AIModule (548)
+[2021.11.03-10.47.51:802][ 21]LogModuleManager: Shutting down and abandoning module GameplayDebugger (547)
+[2021.11.03-10.47.51:802][ 21]LogModuleManager: Shutting down and abandoning module AITestSuite (545)
+[2021.11.03-10.47.51:802][ 21]LogModuleManager: Shutting down and abandoning module NavigationSystem (543)
+[2021.11.03-10.47.51:803][ 21]LogModuleManager: Shutting down and abandoning module ProfilerService (540)
+[2021.11.03-10.47.52:069][ 21]LogModuleManager: Shutting down and abandoning module TaskGraph (538)
+[2021.11.03-10.47.52:069][ 21]LogModuleManager: Shutting down and abandoning module ScreenshotTools (536)
+[2021.11.03-10.47.52:069][ 21]LogModuleManager: Shutting down and abandoning module SynthesisEditor (534)
+[2021.11.03-10.47.52:069][ 21]LogModuleManager: Shutting down and abandoning module Synthesis (532)
+[2021.11.03-10.47.52:069][ 21]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (530)
+[2021.11.03-10.47.52:069][ 21]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (528)
+[2021.11.03-10.47.52:069][ 21]LogModuleManager: Shutting down and abandoning module OculusEditor (526)
+[2021.11.03-10.47.52:069][ 21]LogModuleManager: Shutting down and abandoning module OculusInput (524)
+[2021.11.03-10.47.52:069][ 21]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (522)
+[2021.11.03-10.47.52:069][ 21]LogModuleManager: Shutting down and abandoning module GooglePAD (520)
+[2021.11.03-10.47.52:069][ 21]LogModuleManager: Shutting down and abandoning module EditableMesh (518)
+[2021.11.03-10.47.52:069][ 21]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (516)
+[2021.11.03-10.47.52:069][ 21]LogModuleManager: Shutting down and abandoning module CableComponent (514)
+[2021.11.03-10.47.52:069][ 21]LogModuleManager: Shutting down and abandoning module AudioCapture (512)
+[2021.11.03-10.47.52:069][ 21]LogModuleManager: Shutting down and abandoning module AudioCaptureRtAudio (511)
+[2021.11.03-10.47.52:069][ 21]LogModuleManager: Shutting down and abandoning module AssetTags (508)
+[2021.11.03-10.47.52:069][ 21]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (506)
+[2021.11.03-10.47.52:069][ 21]LogModuleManager: Shutting down and abandoning module AppleImageUtilsBlueprintSupport (504)
+[2021.11.03-10.47.52:069][ 21]LogModuleManager: Shutting down and abandoning module AppleImageUtils (502)
+[2021.11.03-10.47.52:069][ 21]LogModuleManager: Shutting down and abandoning module AndroidPermission (500)
+[2021.11.03-10.47.52:069][ 21]LogModuleManager: Shutting down and abandoning module NUTUnrealEngine4 (498)
+[2021.11.03-10.47.52:069][ 21]LogModuleManager: Shutting down and abandoning module NetcodeUnitTest (496)
+[2021.11.03-10.47.52:070][ 21]LogModuleManager: Shutting down and abandoning module TemplateSequence (494)
+[2021.11.03-10.47.52:070][ 21]LogModuleManager: Shutting down and abandoning module MovieRenderPipelineEditor (492)
+[2021.11.03-10.47.52:070][ 21]LogModuleManager: Shutting down and abandoning module MovieRenderPipelineRenderPasses (490)
+[2021.11.03-10.47.52:070][ 21]LogModuleManager: Shutting down and abandoning module MovieRenderPipelineSettings (488)
+[2021.11.03-10.47.52:070][ 21]LogModuleManager: Shutting down and abandoning module MovieRenderPipelineCore (486)
+[2021.11.03-10.47.52:070][ 21]LogModuleManager: Shutting down and abandoning module ImageWriteQueue (485)
+[2021.11.03-10.47.52:070][ 21]LogModuleManager: Shutting down and abandoning module MeshPaintingToolset (482)
+[2021.11.03-10.47.52:070][ 21]LogModuleManager: Shutting down and abandoning module MeshPaintEditorMode (480)
+[2021.11.03-10.47.52:070][ 21]LogModuleManager: Shutting down and abandoning module MediaCompositing (478)
+[2021.11.03-10.47.52:070][ 21]LogModuleManager: Shutting down and abandoning module ImgMedia (476)
+[2021.11.03-10.47.52:070][ 21]LogModuleManager: Shutting down and abandoning module MagicLeapSharedWorld (474)
+[2021.11.03-10.47.52:070][ 21]LogModuleManager: Shutting down and abandoning module MagicLeapLightEstimation (472)
+[2021.11.03-10.47.52:070][ 21]LogModuleManager: Shutting down and abandoning module MagicLeapHelperVulkan (470)
+[2021.11.03-10.47.52:070][ 21]LogModuleManager: Shutting down and abandoning module MagicLeapHelperOpenGL (468)
+[2021.11.03-10.47.52:070][ 21]LogModuleManager: Shutting down and abandoning module MagicLeapAudio (466)
+[2021.11.03-10.47.52:070][ 21]LogModuleManager: Shutting down and abandoning module NiagaraEditorWidgets (464)
+[2021.11.03-10.47.52:071][ 21]LogModuleManager: Shutting down and abandoning module MeshSolverUtilities (462)
+[2021.11.03-10.47.52:071][ 21]LogModuleManager: Shutting down and abandoning module MeshConversion (460)
+[2021.11.03-10.47.52:071][ 21]LogModuleManager: Shutting down and abandoning module DynamicMesh (458)
+[2021.11.03-10.47.52:071][ 21]LogModuleManager: Shutting down and abandoning module GeometryAlgorithms (456)
+[2021.11.03-10.47.52:071][ 21]LogModuleManager: Shutting down and abandoning module GeometricObjects (454)
+[2021.11.03-10.47.52:071][ 21]LogModuleManager: Shutting down and abandoning module GeometryCollectionTracks (452)
+[2021.11.03-10.47.52:071][ 21]LogModuleManager: Shutting down and abandoning module GeometryCollectionSequencer (451)
+[2021.11.03-10.47.52:071][ 21]LogModuleManager: Shutting down and abandoning module GeometryCollectionEditor (448)
+[2021.11.03-10.47.52:071][ 21]LogModuleManager: Shutting down and abandoning module GeometryCacheTracks (446)
+[2021.11.03-10.47.52:071][ 21]LogModuleManager: Shutting down and abandoning module GeometryCacheSequencer (444)
+[2021.11.03-10.47.52:071][ 21]LogModuleManager: Shutting down and abandoning module ChaosSolverEditor (442)
+[2021.11.03-10.47.52:071][ 21]LogModuleManager: Shutting down and abandoning module ChaosNiagara (440)
+[2021.11.03-10.47.52:071][ 21]LogModuleManager: Shutting down and abandoning module FractureEditor (438)
+[2021.11.03-10.47.52:071][ 21]LogModuleManager: Shutting down and abandoning module ChaosClothEditor (436)
+[2021.11.03-10.47.52:071][ 21]LogModuleManager: Shutting down and abandoning module ChaosCloth (434)
+[2021.11.03-10.47.52:071][ 21]LogModuleManager: Shutting down and abandoning module BackChannel (432)
+[2021.11.03-10.47.52:071][ 21]LogModuleManager: Shutting down and abandoning module AutomationUtilsEditor (430)
+[2021.11.03-10.47.52:071][ 21]LogModuleManager: Shutting down and abandoning module AutomationUtils (428)
+[2021.11.03-10.47.52:071][ 21]LogModuleManager: Shutting down and abandoning module AlembicImporter (426)
+[2021.11.03-10.47.52:071][ 21]LogModuleManager: Shutting down and abandoning module AlembicLibrary (425)
+[2021.11.03-10.47.52:071][ 21]LogModuleManager: Shutting down and abandoning module GeometryCache (424)
+[2021.11.03-10.47.52:071][ 21]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (423)
+[2021.11.03-10.47.52:071][ 21]LogModuleManager: Shutting down and abandoning module VariantManagerContentEditor (418)
+[2021.11.03-10.47.52:071][ 21]LogModuleManager: Shutting down and abandoning module DatasmithContentEditor (416)
+[2021.11.03-10.47.52:071][ 21]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (414)
+[2021.11.03-10.47.52:071][ 21]LogModuleManager: Shutting down and abandoning module PluginBrowser (412)
+[2021.11.03-10.47.52:072][ 21]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (410)
+[2021.11.03-10.47.52:072][ 21]LogModuleManager: Shutting down and abandoning module MaterialAnalyzer (408)
+[2021.11.03-10.47.52:072][ 21]LogModuleManager: Shutting down and abandoning module EditorScriptingUtilities (406)
+[2021.11.03-10.47.52:072][ 21]LogModuleManager: Shutting down and abandoning module CurveEditorTools (404)
+[2021.11.03-10.47.52:072][ 21]LogModuleManager: Shutting down and abandoning module CryptoKeysOpenSSL (402)
+[2021.11.03-10.47.52:072][ 21]LogModuleManager: Shutting down and abandoning module CryptoKeys (400)
+[2021.11.03-10.47.52:072][ 21]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (398)
+[2021.11.03-10.47.52:072][ 21]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (396)
+[2021.11.03-10.47.52:072][ 21]LogModuleManager: Shutting down and abandoning module UObjectPlugin (394)
+[2021.11.03-10.47.52:072][ 21]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (392)
+[2021.11.03-10.47.52:072][ 21]LogModuleManager: Shutting down and abandoning module RiderSourceCodeAccess (390)
+[2021.11.03-10.47.52:072][ 21]LogModuleManager: Shutting down and abandoning module PlasticSourceControl (388)
+[2021.11.03-10.47.52:072][ 21]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (386)
+[2021.11.03-10.47.52:072][ 21]LogModuleManager: Shutting down and abandoning module GitSourceControl (384)
+[2021.11.03-10.47.52:072][ 21]LogModuleManager: Shutting down and abandoning module SourceControl (383)
+[2021.11.03-10.47.52:072][ 21]LogModuleManager: Shutting down and abandoning module CLionSourceCodeAccess (380)
+[2021.11.03-10.47.52:072][ 21]LogModuleManager: Shutting down and abandoning module AnimationSharingEd (378)
+[2021.11.03-10.47.52:072][ 21]LogModuleManager: Shutting down and abandoning module ActorLayerUtilitiesEditor (376)
+[2021.11.03-10.47.52:072][ 21]LogModuleManager: Shutting down and abandoning module ActorLayerUtilities (374)
+[2021.11.03-10.47.52:072][ 21]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (372)
+[2021.11.03-10.47.52:072][ 21]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (370)
+[2021.11.03-10.47.52:072][ 21]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (368)
+[2021.11.03-10.47.52:072][ 21]LogModuleManager: Shutting down and abandoning module Paper2DEditor (366)
+[2021.11.03-10.47.52:072][ 21]LogModuleManager: Shutting down and abandoning module SoundFields (364)
+[2021.11.03-10.47.52:072][ 21]LogModuleManager: Shutting down and abandoning module SignificanceManager (362)
+[2021.11.03-10.47.52:072][ 21]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (360)
+[2021.11.03-10.47.52:072][ 21]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (358)
+[2021.11.03-10.47.52:073][ 21]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (354)
+[2021.11.03-10.47.52:073][ 21]LogModuleManager: Shutting down and abandoning module ActorSequence (352)
+[2021.11.03-10.47.52:073][ 21]LogModuleManager: Shutting down and abandoning module UdpMessaging (350)
+[2021.11.03-10.47.52:173][ 21]LogModuleManager: Shutting down and abandoning module TcpMessaging (348)
+[2021.11.03-10.47.52:274][ 21]LogModuleManager: Shutting down and abandoning module MagicLeapARPin (346)
+[2021.11.03-10.47.52:274][ 21]LogModuleManager: Shutting down and abandoning module MagicLeapHandMeshing (344)
+[2021.11.03-10.47.52:274][ 21]LogModuleManager: Shutting down and abandoning module MagicLeapSecureStorage (342)
+[2021.11.03-10.47.52:274][ 21]LogModuleManager: Shutting down and abandoning module MagicLeapPrivileges (340)
+[2021.11.03-10.47.52:274][ 21]LogModuleManager: Shutting down and abandoning module MagicLeapPlanes (338)
+[2021.11.03-10.47.52:274][ 21]LogMagicLeapPlanes: Planes tracker already destroyed.
+[2021.11.03-10.47.52:274][ 21]LogModuleManager: Shutting down and abandoning module MagicLeapImageTracker (336)
+[2021.11.03-10.47.52:274][ 21]LogModuleManager: Shutting down and abandoning module MagicLeapIdentity (334)
+[2021.11.03-10.47.52:274][ 21]LogModuleManager: Shutting down and abandoning module MagicLeapHandTracking (332)
+[2021.11.03-10.47.52:274][ 21]LogModuleManager: Shutting down and abandoning module MagicLeapEyeTracker (330)
+[2021.11.03-10.47.52:274][ 21]LogModuleManager: Shutting down and abandoning module MagicLeapController (328)
+[2021.11.03-10.47.52:297][ 21]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2021.11.03-10.47.52:297][ 21]LogModuleManager: Shutting down and abandoning module MagicLeapARPinImpl (326)
+[2021.11.03-10.47.52:297][ 21]LogModuleManager: Shutting down and abandoning module MagicLeapAR (324)
+[2021.11.03-10.47.52:297][ 21]LogModuleManager: Shutting down and abandoning module AugmentedReality (323)
+[2021.11.03-10.47.52:297][ 21]LogModuleManager: Shutting down and abandoning module NiagaraAnimNotifies (320)
+[2021.11.03-10.47.52:297][ 21]LogModuleManager: Shutting down and abandoning module Niagara (318)
+[2021.11.03-10.47.52:297][ 21]LogModuleManager: Shutting down and abandoning module SignalProcessing (317)
+[2021.11.03-10.47.52:297][ 21]LogModuleManager: Shutting down and abandoning module NiagaraEditor (315)
+[2021.11.03-10.47.52:298][ 21]LogModuleManager: Shutting down and abandoning module NiagaraCore (312)
+[2021.11.03-10.47.52:298][ 21]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (310)
+[2021.11.03-10.47.52:298][ 21]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (308)
+[2021.11.03-10.47.52:298][ 21]LogModuleManager: Shutting down and abandoning module FacialAnimation (306)
+[2021.11.03-10.47.52:298][ 21]LogModuleManager: Shutting down and abandoning module DataValidation (304)
+[2021.11.03-10.47.52:298][ 21]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (302)
+[2021.11.03-10.47.52:298][ 21]LogModuleManager: Shutting down and abandoning module LevelEditor (301)
+[2021.11.03-10.47.52:336][ 21]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (300)
+[2021.11.03-10.47.52:336][ 21]LogModuleManager: Shutting down and abandoning module CommonMenuExtensions (298)
+[2021.11.03-10.47.52:337][ 21]LogModuleManager: Shutting down and abandoning module MainFrame (296)
+[2021.11.03-10.47.52:337][ 21]LogModuleManager: Shutting down and abandoning module HotReload (295)
+[2021.11.03-10.47.52:337][ 21]LogModuleManager: Shutting down and abandoning module ToolMenus (291)
+[2021.11.03-10.47.52:337][ 21]LogModuleManager: Shutting down and abandoning module TreeMap (289)
+[2021.11.03-10.47.52:337][ 21]LogModuleManager: Shutting down and abandoning module AnimationSharing (286)
+[2021.11.03-10.47.52:337][ 21]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (284)
+[2021.11.03-10.47.52:337][ 21]LogModuleManager: Shutting down and abandoning module Paper2D (282)
+[2021.11.03-10.47.52:337][ 21]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (280)
+[2021.11.03-10.47.52:410][ 21]LogModuleManager: Shutting down and abandoning module WebMMoviePlayer (278)
+[2021.11.03-10.47.52:410][ 21]LogModuleManager: Shutting down and abandoning module NetworkReplayStreaming (276)
+[2021.11.03-10.47.52:410][ 21]LogModuleManager: Shutting down and abandoning module PacketHandler (274)
+[2021.11.03-10.47.52:410][ 21]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (272)
+[2021.11.03-10.47.52:410][ 21]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntimeNv (270)
+[2021.11.03-10.47.52:410][ 21]LogModuleManager: Shutting down and abandoning module MediaAssets (268)
+[2021.11.03-10.47.52:410][ 21]LogModuleManager: Shutting down and abandoning module Overlay (266)
+[2021.11.03-10.47.52:410][ 21]LogModuleManager: Shutting down and abandoning module OverlayEditor (265)
+[2021.11.03-10.47.52:410][ 21]LogModuleManager: Shutting down and abandoning module VREditor (262)
+[2021.11.03-10.47.52:410][ 21]LogModuleManager: Shutting down and abandoning module StringTableEditor (260)
+[2021.11.03-10.47.52:410][ 21]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (258)
+[2021.11.03-10.47.52:410][ 21]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (256)
+[2021.11.03-10.47.52:410][ 21]LogModuleManager: Shutting down and abandoning module FunctionalTesting (254)
+[2021.11.03-10.47.52:410][ 21]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (252)
+[2021.11.03-10.47.52:411][ 21]LogModuleManager: Shutting down and abandoning module UMG (250)
+[2021.11.03-10.47.52:411][ 21]LogModuleManager: Shutting down and abandoning module UMGEditor (249)
+[2021.11.03-10.47.52:411][ 21]LogModuleManager: Shutting down and abandoning module MessageLog (247)
+[2021.11.03-10.47.52:411][ 21]LogModuleManager: Shutting down and abandoning module MaterialEditor (245)
+[2021.11.03-10.47.52:411][ 21]LogModuleManager: Shutting down and abandoning module ContentBrowser (244)
+[2021.11.03-10.47.52:415][ 21]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (243)
+[2021.11.03-10.47.52:415][ 21]LogModuleManager: Shutting down and abandoning module SlateReflector (236)
+[2021.11.03-10.47.52:415][ 21]LogModuleManager: Shutting down and abandoning module Slate (234)
+[2021.11.03-10.47.52:415][ 21]LogModuleManager: Shutting down and abandoning module SlateCore (232)
+[2021.11.03-10.47.52:415][ 21]LogModuleManager: Shutting down and abandoning module LandscapeEditorUtilities (230)
+[2021.11.03-10.47.52:415][ 21]LogModuleManager: Shutting down and abandoning module UnrealEd (228)
+[2021.11.03-10.47.52:415][ 21]LogModuleManager: Shutting down and abandoning module MRMesh (226)
+[2021.11.03-10.47.52:415][ 21]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (224)
+[2021.11.03-10.47.52:415][ 21]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (222)
+[2021.11.03-10.47.52:415][ 21]LogModuleManager: Shutting down and abandoning module XAudio2 (220)
+[2021.11.03-10.47.52:415][ 21]LogModuleManager: Shutting down and abandoning module Networking (218)
+[2021.11.03-10.47.52:415][ 21]LogModuleManager: Shutting down and abandoning module Core (216)
+[2021.11.03-10.47.52:415][ 21]LogModuleManager: Shutting down and abandoning module MovieSceneTools (214)
+[2021.11.03-10.47.52:421][ 21]LogModuleManager: Shutting down and abandoning module CurveEditor (213)
+[2021.11.03-10.47.52:422][ 21]LogModuleManager: Shutting down and abandoning module Sequencer (211)
+[2021.11.03-10.47.52:423][ 21]LogModuleManager: Shutting down and abandoning module EditorStyle (210)
+[2021.11.03-10.47.52:427][ 21]LogModuleManager: Shutting down and abandoning module KismetCompiler (206)
+[2021.11.03-10.47.52:427][ 21]LogModuleManager: Shutting down and abandoning module MeshBuilder (204)
+[2021.11.03-10.47.52:427][ 21]LogModuleManager: Shutting down and abandoning module MeshUtilities (202)
+[2021.11.03-10.47.52:427][ 21]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (201)
+[2021.11.03-10.47.52:427][ 21]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (200)
+[2021.11.03-10.47.52:427][ 21]LogModuleManager: Shutting down and abandoning module MeshBoneReduction (199)
+[2021.11.03-10.47.52:427][ 21]LogModuleManager: Shutting down and abandoning module SkeletalMeshReduction (197)
+[2021.11.03-10.47.52:427][ 21]LogModuleManager: Shutting down and abandoning module ProxyLODMeshReduction (195)
+[2021.11.03-10.47.52:427][ 21]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (193)
+[2021.11.03-10.47.52:427][ 21]LogModuleManager: Shutting down and abandoning module MaterialBaking (189)
+[2021.11.03-10.47.52:427][ 21]LogModuleManager: Shutting down and abandoning module NullInstallBundleManager (184)
+[2021.11.03-10.47.52:427][ 21]LogModuleManager: Shutting down and abandoning module DerivedDataCache (182)
+[2021.11.03-10.47.52:427][ 21]LogModuleManager: Shutting down and abandoning module XGEController (180)
+[2021.11.03-10.47.52:427][ 21]LogModuleManager: Shutting down and abandoning module TargetPlatform (178)
+[2021.11.03-10.47.52:428][ 21]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (177)
+[2021.11.03-10.47.52:428][ 21]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (175)
+[2021.11.03-10.47.52:428][ 21]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (173)
+[2021.11.03-10.47.52:428][ 21]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (171)
+[2021.11.03-10.47.52:428][ 21]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (169)
+[2021.11.03-10.47.52:428][ 21]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (167)
+[2021.11.03-10.47.52:428][ 21]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (165)
+[2021.11.03-10.47.52:428][ 21]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (163)
+[2021.11.03-10.47.52:428][ 21]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (161)
+[2021.11.03-10.47.52:429][ 21]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (159)
+[2021.11.03-10.47.52:429][ 21]LogModuleManager: Shutting down and abandoning module ImageWrapper (158)
+[2021.11.03-10.47.52:429][ 21]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (155)
+[2021.11.03-10.47.52:429][ 21]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (153)
+[2021.11.03-10.47.52:429][ 21]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (151)
+[2021.11.03-10.47.52:429][ 21]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (149)
+[2021.11.03-10.47.52:429][ 21]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (147)
+[2021.11.03-10.47.52:429][ 21]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (145)
+[2021.11.03-10.47.52:429][ 21]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (143)
+[2021.11.03-10.47.52:429][ 21]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (141)
+[2021.11.03-10.47.52:429][ 21]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (139)
+[2021.11.03-10.47.52:462][ 21]LogModuleManager: Shutting down and abandoning module LuminTargetPlatform (137)
+[2021.11.03-10.47.52:471][ 21]LogModuleManager: Shutting down and abandoning module LinuxAArch64ServerTargetPlatform (135)
+[2021.11.03-10.47.52:471][ 21]LogModuleManager: Shutting down and abandoning module LinuxAArch64ClientTargetPlatform (133)
+[2021.11.03-10.47.52:471][ 21]LogModuleManager: Shutting down and abandoning module LinuxAArch64NoEditorTargetPlatform (131)
+[2021.11.03-10.47.52:471][ 21]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (129)
+[2021.11.03-10.47.52:471][ 21]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (127)
+[2021.11.03-10.47.52:471][ 21]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (125)
+[2021.11.03-10.47.52:471][ 21]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (123)
+[2021.11.03-10.47.52:471][ 21]LogModuleManager: Shutting down and abandoning module Messaging (121)
+[2021.11.03-10.47.52:471][ 21]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (119)
+[2021.11.03-10.47.52:476][ 21]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (117)
+[2021.11.03-10.47.52:536][ 21]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (115)
+[2021.11.03-10.47.52:537][ 21]LogModuleManager: Shutting down and abandoning module InputCore (112)
+[2021.11.03-10.47.52:537][ 21]LogModuleManager: Shutting down and abandoning module Settings (110)
+[2021.11.03-10.47.52:537][ 21]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (108)
+[2021.11.03-10.47.52:538][ 21]LogModuleManager: Shutting down and abandoning module PhysXCooking (106)
+[2021.11.03-10.47.52:538][ 21]LogModuleManager: Shutting down and abandoning module ChaosSolvers (104)
+[2021.11.03-10.47.52:538][ 21]LogModuleManager: Shutting down and abandoning module FieldSystemEngine (103)
+[2021.11.03-10.47.52:538][ 21]LogModuleManager: Shutting down and abandoning module Chaos (100)
+[2021.11.03-10.47.52:538][ 21]LogModuleManager: Shutting down and abandoning module WindowsPlatformFeatures (98)
+[2021.11.03-10.47.52:538][ 21]LogModuleManager: Shutting down and abandoning module GameplayMediaEncoder (97)
+[2021.11.03-10.47.52:538][ 21]LogModuleManager: Shutting down and abandoning module AVEncoder (96)
+[2021.11.03-10.47.52:538][ 21]LogModuleManager: Shutting down and abandoning module SteamVRInputDevice (92)
+[2021.11.03-10.47.52:538][ 21]LogModuleManager: Shutting down and abandoning module SteamVRInput (90)
+[2021.11.03-10.47.52:538][ 21]LogModuleManager: Shutting down and abandoning module SteamVR (88)
+[2021.11.03-10.47.52:538][ 21]LogHMD: Freeing OpenVRDLLHandle.
+[2021.11.03-10.47.52:538][ 21]LogModuleManager: Shutting down and abandoning module OculusHMD (86)
+[2021.11.03-10.47.52:538][ 21]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (84)
+[2021.11.03-10.47.52:538][ 21]LogModuleManager: Shutting down and abandoning module LauncherChunkInstaller (82)
+[2021.11.03-10.47.52:538][ 21]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (80)
+[2021.11.03-10.47.52:538][ 21]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (76)
+[2021.11.03-10.47.52:547][ 21]LogModuleManager: Shutting down and abandoning module XMPP (71)
+[2021.11.03-10.47.52:547][ 21]LogModuleManager: Shutting down and abandoning module WebSockets (70)
+[2021.11.03-10.47.52:582][ 21]LogModuleManager: Shutting down and abandoning module HTTP (67)
+[2021.11.03-10.47.52:582][ 21]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2021.11.03-10.47.52:582][ 21]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B3B64202B-4751-0A2D-C18B-CCAC646FEE03%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.25.4-14469661%2B%2B%2BUE4%2BRelease-4.25&UserID=b992081d4c8d8a9e421e6794e48f99cd%7C806ad9bcb2894ea2b2115c845ca9a0ab%7C4b7d00be-395d-41e3-bd29-aff64a471900&AppEnvironment=datacollector-source&UploadType=eteventstream] refs=[1] status=Processing
+[2021.11.03-10.47.52:614][ 21]LogModuleManager: Shutting down and abandoning module SSL (66)
+[2021.11.03-10.47.52:644][ 21]LogModuleManager: Shutting down and abandoning module WmfMedia (62)
+[2021.11.03-10.47.52:646][ 21]LogModuleManager: Shutting down and abandoning module Media (61)
+[2021.11.03-10.47.52:647][ 21]LogModuleManager: Shutting down and abandoning module MagicLeap (58)
+[2021.11.03-10.47.52:647][ 21]LogModuleManager: Shutting down and abandoning module NiagaraVertexFactories (56)
+[2021.11.03-10.47.52:647][ 21]LogModuleManager: Shutting down and abandoning module NiagaraShader (54)
+[2021.11.03-10.47.52:647][ 21]LogModuleManager: Shutting down and abandoning module VariantManagerContent (52)
+[2021.11.03-10.47.52:647][ 21]LogModuleManager: Shutting down and abandoning module DatasmithContent (50)
+[2021.11.03-10.47.52:648][ 21]LogModuleManager: Shutting down and abandoning module AISupportModule (48)
+[2021.11.03-10.47.52:648][ 21]LogModuleManager: Shutting down and abandoning module DesktopPlatform (46)
+[2021.11.03-10.47.52:648][ 21]LogModuleManager: Shutting down and abandoning module PlatformCryptoOpenSSL (44)
+[2021.11.03-10.47.52:648][ 21]LogModuleManager: Shutting down and abandoning module PlatformCryptoTypes (42)
+[2021.11.03-10.47.52:648][ 21]LogModuleManager: Shutting down and abandoning module PlatformCrypto (40)
+[2021.11.03-10.47.52:648][ 21]LogModuleManager: Shutting down and abandoning module AnimationModifiers (38)
+[2021.11.03-10.47.52:648][ 21]LogModuleManager: Shutting down and abandoning module PropertyEditor (37)
+[2021.11.03-10.47.52:648][ 21]LogModuleManager: Shutting down and abandoning module AudioEditor (34)
+[2021.11.03-10.47.52:649][ 21]LogModuleManager: Shutting down and abandoning module TextureCompressor (32)
+[2021.11.03-10.47.52:649][ 21]LogModuleManager: Shutting down and abandoning module RenderCore (30)
+[2021.11.03-10.47.52:650][ 21]LogModuleManager: Shutting down and abandoning module Landscape (28)
+[2021.11.03-10.47.52:650][ 21]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (26)
+[2021.11.03-10.47.52:701][ 21]LogModuleManager: Shutting down and abandoning module OpenGLDrv (24)
+[2021.11.03-10.47.52:701][ 21]LogModuleManager: Shutting down and abandoning module D3D11RHI (22)
+[2021.11.03-10.47.52:701][ 21]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (20)
+[2021.11.03-10.47.52:702][ 21]LogModuleManager: Shutting down and abandoning module Renderer (18)
+[2021.11.03-10.47.52:702][ 21]LogModuleManager: Shutting down and abandoning module Engine (16)
+[2021.11.03-10.47.52:702][ 21]LogModuleManager: Shutting down and abandoning module CoreUObject (14)
+[2021.11.03-10.47.52:702][ 21]LogModuleManager: Shutting down and abandoning module NetworkFile (12)
+[2021.11.03-10.47.52:702][ 21]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (10)
+[2021.11.03-10.47.52:702][ 21]LogModuleManager: Shutting down and abandoning module StreamingFile (8)
+[2021.11.03-10.47.52:702][ 21]LogModuleManager: Shutting down and abandoning module SandboxFile (6)
+[2021.11.03-10.47.52:702][ 21]LogModuleManager: Shutting down and abandoning module PakFile (4)
+[2021.11.03-10.47.52:702][ 21]LogModuleManager: Shutting down and abandoning module RSA (3)
+[2021.11.03-10.47.52:712][ 21]LogContentStreaming: Display: There are 1 unreleased StreamingManagers
+[2021.11.03-10.47.52:884][ 21]LogD3D11RHI: Shutdown
+[2021.11.03-10.47.52:884][ 21]LogD3D11RHI: CleanupD3DDevice
+[2021.11.03-10.47.52:934][ 21]LogExit: Exiting.
+[2021.11.03-10.47.53:000][ 21]Log file closed, 11/03/21 21:47:53
